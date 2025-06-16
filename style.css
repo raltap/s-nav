@@ -1,0 +1,262 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5; /* Açık gri arka plan */
+    color: #333; /* Koyu gri metin */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* İçeriği yukarıda hizala */
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px; /* Daha dar bir genişlik */
+    margin: 20px auto; /* Üstten/alttan boşluk, yatayda otomatik ortala */
+    background: #ffffff; /* Beyaz arka plan */
+    padding: 30px; /* İç boşlukları artır */
+    border-radius: 12px; /* Daha yuvarlak köşeler */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Daha belirgin gölge */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3; /* Koyu mavi başlıklar */
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.selection-section {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #cce5ff; /* Açık mavi çerçeve */
+    border-radius: 8px;
+    background-color: #e9f7ff; /* Çok açık mavi arka plan */
+}
+
+.selection-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    color: #004085; /* Daha koyu mavi başlık */
+    border-bottom: 1px solid #b8daff; /* Alt çizgi */
+    padding-bottom: 10px;
+}
+
+label {
+    display: flex; /* Flexbox kullanarak checkbox/radio ve metni hizala */
+    align-items: center;
+    margin-bottom: 12px; /* Satır aralığını artır */
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px; /* Giriş kutusu ile metin arasına boşluk */
+    transform: scale(1.2); /* Giriş kutusunu biraz büyüt */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px; /* Daha büyük tıklama alanı */
+    margin-top: 15px; /* Üst boşluğu artır */
+    background-color: #007bff; /* Mavi düğme */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Daha yuvarlak köşeler */
+    cursor: pointer;
+    font-size: 1em; /* Yazı boyutunu ayarla */
+    transition: background-color 0.3s ease; /* Hover efekti için animasyon */
+}
+
+button:hover {
+    background-color: #0056b3; /* Koyulaşan mavi */
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#quiz-area, #end-screen {
+    /* display controlled by JS */
+}
+
+#question-counter {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+#question-text {
+    font-size: 1.2em; /* Soru metnini büyüt */
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px dashed #007bff; /* Mavi kesik çizgi çerçeve */
+    border-radius: 8px;
+    background-color: #e9f7ff; /* Açık mavi arka plan */
+    white-space: pre-wrap; /* Çok satırlı sorular için satır sonlarını koru */
+    word-wrap: break-word; /* Uzun kelimeleri böl */
+}
+
+#options-container {
+    margin-bottom: 25px;
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    padding: 12px; /* Daha büyük tıklama alanı */
+    margin-bottom: 10px; /* Aralarındaki boşluğu artır */
+    background-color: #f8f9fa; /* Çok açık gri */
+    color: #495057; /* Koyu gri */
+    border: 1px solid #ced4da; /* Gri çerçeve */
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.option-button:hover {
+    background-color: #e9ecef; /* Daha açık gri */
+    border-color: #adb5bd;
+}
+
+.option-button.correct {
+    background-color: #d4edda; /* Açık yeşil */
+    border-color: #c3e6cb;
+    color: #155724; /* Koyu yeşil metin */
+    font-weight: bold;
+}
+
+.option-button.wrong {
+    background-color: #f8d7da; /* Açık kırmızı */
+    border-color: #f5c6cb;
+    color: #721c24; /* Koyu kırmızı metin */
+    font-weight: bold;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    min-height: 1.5em; /* Alan ayrımı için minimum yükseklik */
+}
+
+#explanation {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #28a745; /* Yeşil kesik çizgi */
+    background-color: #e2f0e5; /* Açık yeşil arka plan */
+    border-radius: 8px;
+    display: none; /* Initially hidden */
+    white-space: pre-wrap; /* Açıklama metni için satır sonlarını koru */
+    word-wrap: break-word;
+    font-size: 1em;
+}
+
+#next-question-btn {
+     background-color: #28a745; /* Yeşil */
+     margin-bottom: 10px;
+}
+#next-question-btn:hover {
+     background-color: #218838;
+}
+
+#back-to-menu-btn {
+     background-color: #ffc107; /* Sarı/Turuncu */
+     color: #212529; /* Koyu metin */
+     border: 1px solid #ffb300;
+}
+#back-to-menu-btn:hover {
+     background-color: #e0a800;
+     border-color: #cc9500;
+}
+
+#review-wrong-btn {
+    background-color: #dc3545; /* Kırmızı */
+}
+#review-wrong-btn:hover {
+    background-color: #c82333;
+}
+
+.wrong-summary {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #f5c6cb; /* Açık kırmızı çerçeve */
+    border-radius: 8px;
+    background-color: #f8d7da; /* Çok açık kırmızı arka plan */
+}
+
+.wrong-summary h3 {
+    margin-top: 0;
+    text-align: left;
+    color: #721c24; /* Koyu kırmızı başlık */
+    border-bottom: 1px solid #f5b9be;
+    padding-bottom: 10px;
+}
+
+#wrong-answers-list {
+    list-style: disc; /* Madde işaretli liste */
+    padding-left: 20px; /* Sol boşluk */
+    max-height: 150px; /* Belirli bir yükseklik vererek kaydırma çubuğu oluştur */
+    overflow-y: auto; /* İçerik taştığında kaydırma çubuğu göster */
+    border-top: 1px solid #f5b9be; /* Üst çizgi */
+    padding-top: 10px;
+}
+
+#wrong-answers-list li {
+    padding: 8px 0; /* Madde aralığı */
+    border-bottom: 1px solid #f5b9be; /* Alt çizgi */
+    font-size: 0.95em;
+    color: #721c24; /* Koyu kırmızı metin */
+}
+
+#wrong-answers-list li:last-child {
+    border-bottom: none;
+}
+
+/* Quiz Bitti Ekranı Stilleri */
+#end-screen {
+    text-align: center;
+    padding: 30px;
+}
+
+#end-screen h2 {
+    color: #28a745; /* Yeşil */
+    margin-bottom: 20px;
+}
+
+#end-screen p {
+     font-size: 1.2em;
+     color: #555;
+     margin-bottom: 30px;
+}
+
+#restart-from-end-btn {
+    background-color: #007bff; /* Mavi */
+    margin-bottom: 10px;
+}
+
+#back-to-menu-from-end-btn {
+    background-color: #ffc107; /* Sarı/Turuncu */
+    color: #212529;
+    border: 1px solid #ffb300;
+}
+#back-to-menu-from-end-btn:hover {
+     background-color: #e0a800;
+     border-color: #cc9500;
+}
