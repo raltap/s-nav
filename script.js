@@ -89,8 +89,12 @@ function updateWrongAnswersList() {
             const displayQuestionText = question.question.length > 100 ?
                                         question.question.substring(0, 100) + '...' :
                                         question.question;
-            listItem.textContent = `${displayQuestionText} [${Object.keys(fileMappings).find(key => fileMappings[key].jsonFileValue === question.file) || question.file}]`; // Hangi dosyadan geldiğini göster (kısa veya uzun isimle)
-             // İsterseniz bu liste elemanlarına tıklayarak ilgili soruyu gösterme özelliği eklenebilir
+
+            // Hangi dosyadan geldiğini bulmak için fileMappings'i kullan
+            const fileKey = Object.keys(fileMappings).find(key => fileMappings[key].jsonFileValue === question.file);
+            const fileDisplay = fileKey ? fileKey : question.file; // Kısa adı veya orijinal uzun adı göster
+
+            listItem.textContent = `${displayQuestionText} [${fileDisplay}]`;
             wrongAnswersList.appendChild(listItem);
         }
     });
@@ -127,11 +131,8 @@ function showEndScreen(correctCount, totalCount) {
      finalScorePara.textContent = `Toplam ${totalCount} sorudan ${correctCount} tanesini doğru cevapladınız. Yanlış yaptığınız soruları ana menüdeki listeden görebilirsiniz.`;
 
      // Bitiş ekranındaki düğmelere olay dinleyicileri ekle
-     // Önceki dinleyicileri kaldırmak daha iyi bir pratik olabilir, ancak bu basit uygulama için sorun yaratmaz.
-     document.getElementById('restart-from-end-btn').onclick = initializeQuiz; // Aynı ayarlarla yeniden başlat
+     document.getElementById('restart-from-end-btn').onclick = () => initializeQuiz(false); // Normal quiz başlangıcı
      document.getElementById('back-to-menu-from-end-btn').onclick = showMainMenu; // Ana menüye dön
-
-      // Review wrong button'ı sadece ana menüdeyken gösterecek şekilde updateWrongAnswersList zaten ayarlıyor.
 }
 
 
@@ -158,7 +159,7 @@ async function initializeQuiz(isReviewingWrong = false) {
 
 
     if (selectedFilesShortNames.length === 0 && !isReviewingWrong) {
-        alert('Lütfen quiz yapmak istediğiniz en least bir konu seçin.');
+        alert('Lütfen quiz yapmak istediğiniz en az bir konu seçin.');
         return;
     }
 
@@ -184,7 +185,6 @@ async function initializeQuiz(isReviewingWrong = false) {
     } else if (selectedMode === 'repeatWrong') {
         // 'Yanlışlar tekrar sorulacak' modu: Seçili dosyalardaki tüm soruları havuza ekle
         quizPool = potentialQuizPool;
-        // originalQuizPoolIds artık kullanılmıyor, wrongAnswerIds listesi yeterli
     } else {
          // Varsayılan olarak tek geçiş modu
          quizPool = potentialQuizPool;
@@ -205,6 +205,36 @@ async function initializeQuiz(isReviewingWrong = false) {
     displayCurrentQuestion();
 }
 
+// Yanlış yapılanları tekrar çöz düğmesine özel olay dinleyicisi
+reviewWrongBtn.addEventListener('click', () => {
+    // 'Yanlış yapılanları tekrar çöz' modunu radyo düğmesinde seçili hale getir
+    document.querySelector('input[name="quiz-mode"][value="repeatWrong"]').checked = true;
+
+    // Hangi konuların yanlış yapıldığını bulup o checkboxları işaretle
+     const filesWithWrongAnswersJsonValue = new Set();
+     wrongAnswerIds.forEach(qId => {
+         const question = allQuestions.find(q => q.id === qId);
+         if(question) {
+             filesWithWrongAnswersJsonValue.add(question.file); // JSON'daki uzun değeri ekle
+         }
+     });
+
+     // Uzun JSON değerlerini, fileMappings'deki kısa değerlere dönüştürerek checkboxları işaretle
+     fileCheckboxes.forEach(checkbox => {
+          const shortName = checkbox.value;
+          const fileInfo = fileMappings[shortName];
+          if (fileInfo && filesWithWrongAnswersJsonValue.has(fileInfo.jsonFileValue)) {
+              checkbox.checked = true;
+          } else {
+              checkbox.checked = false; // Diğerlerini kaldır
+          }
+     });
+
+
+    // initializeQuiz'i tekrar çözme modunda başlat
+    initializeQuiz(true);
+});
+
 
 function displayCurrentQuestion() {
     if (currentQuestionIndex >= quizPool.length) {
@@ -224,18 +254,30 @@ function displayCurrentQuestion() {
     explanationDiv.style.display = 'none'; // Açıklamayı gizle
     nextQuestionBtn.style.display = 'none'; // Sonraki soru düğmesini gizle
 
-    // Şıkları karıştır ve butonları oluştur
-    // JSON'daki options objesini array formatına dönüştürerek karıştır
-    const shuffledOptions = shuffleArray(Object.keys(question.options).map(key => ({
-        key: key,
-        text: question.options[key]
-    })));
 
-    shuffledOptions.forEach(option => {
+    // Şıkları karıştır
+    // JSON'daki options objesini { key: 'A', text: 'Metin A' } gibi objeler dizisine dönüştür
+    const optionsArray = Object.keys(question.options).map(key => ({
+        key: key, // Orijinal anahtar (A, B, C...)
+        text: question.options[key] // Şık metni
+    }));
+
+    const shuffledOptions = shuffleArray(optionsArray);
+
+    // Yeni etiketler (A, B, C, D, E) oluşturmak için bir dizi
+    const newLabels = ['A', 'B', 'C', 'D', 'E'];
+
+
+    shuffledOptions.forEach((option, index) => { // Karıştırılmış şıklar üzerinde döngü
         const button = document.createElement('button');
         button.classList.add('option-button');
-        button.textContent = `${option.key}) ${option.text}`;
-        button.dataset.key = option.key; // Hangi şık olduğunu kaydet
+
+        // Butonun görünen metni: Yeni etiket +) Şık metni
+        button.textContent = `${newLabels[index]}) ${option.text}`;
+
+        // Butonun dataset'inde orijinal anahtarı sakla (Doğruluk kontrolü için)
+        button.dataset.originalKey = option.key;
+
         button.addEventListener('click', handleAnswerClick); // Olay dinleyicisi ekle
         optionsContainer.appendChild(button);
     });
@@ -243,9 +285,11 @@ function displayCurrentQuestion() {
 
 function handleAnswerClick(event) {
     const selectedButton = event.target;
-    const selectedKey = selectedButton.dataset.key;
+    // Tıklanan butonun dataset'indeki orijinal anahtarı al
+    const selectedOriginalKey = selectedButton.dataset.originalKey;
+
     const currentQuestion = quizPool[currentQuestionIndex];
-    const correctAnswerKey = currentQuestion.correct_answer; // JSON'daki alana göre kullanıyoruz
+    const correctAnswerKey = currentQuestion.correct_answer; // JSON'daki alana göre kullanıyoruz (Her zaman "A")
 
     // Tüm şıkları pasif hale getir
     Array.from(optionsContainer.children).forEach(button => {
@@ -253,7 +297,8 @@ function handleAnswerClick(event) {
     });
 
     // Seçilen ve doğru şıkları işaretle ve geri bildirim ver
-    if (selectedKey === correctAnswerKey) {
+    // Orijinal anahtarı doğru cevap anahtarıyla karşılaştır
+    if (selectedOriginalKey === correctAnswerKey) { // selectedOriginalKey === "A" mı?
         selectedButton.classList.add('correct');
         feedbackDiv.textContent = 'Doğru!';
         feedbackDiv.style.color = 'green';
@@ -269,8 +314,9 @@ function handleAnswerClick(event) {
         feedbackDiv.style.color = 'red';
 
         // Doğru şıkkı bul ve yeşil yap
+        // Doğru şık, orijinal anahtarı correct_answer olan şıktır (yani orijinal A şıkkı)
         Array.from(optionsContainer.children).forEach(button => {
-            if (button.dataset.key === correctAnswerKey) {
+            if (button.dataset.originalKey === correctAnswerKey) { // dataset.originalKey === "A" olan butonu bul
                 button.classList.add('correct');
             }
         });
@@ -295,47 +341,22 @@ function handleAnswerClick(event) {
 function nextQuestion() {
     const selectedMode = document.querySelector('input[name="quiz-mode"]:checked').value;
 
-    if (selectedMode === 'once') {
-         // 'Once' modunda, doğru cevaplanan soru havuzdan fiilen çıkarılır (bir daha sorulmaz)
-         // Bunu quizPool dizisini filtreleyerek yapabiliriz. Ancak index takibi karışır.
-         // Daha basit yaklaşım: Sadece indeksi artır ve zaten doğru cevaplanmışsa atla
-         currentQuestionIndex++;
-         // Doğru cevaplananları atlama mantığı displayCurrentQuestion içinde olmalıydı ama en basiti
-         // quizPool'u her initializeQuiz'de yeniden oluşturmak. Mevcut kod zaten öyle yapıyor.
-         // O yüzden burada sadece indeksi artırmak yeterli.
-         displayCurrentQuestion();
+    // Tek geçiş modunda veya yanlışlar tekrar modunda (ilk tur) indeksi artır ve bir sonraki soruyu göster
+    currentQuestionIndex++;
+    displayCurrentQuestion();
 
-    } else if (selectedMode === 'repeatWrong') {
-        // 'repeatWrong' modunda, tüm sorular bir kez sorulur, yanlışlar işaretlenir.
-        // İlk turda indeksi artır.
-        currentQuestionIndex++;
-        displayCurrentQuestion();
-
-        // İkinci tur (sadece yanlışlar) mantığı initializeQuiz(true) içinde işleniyor.
-        // Yani nextQuestion sadece ilk turda normal ilerler.
-        // Eğer quizPool sadece yanlışlardan oluşuyorsa (reviewWrongBtn ile başlatıldıysa),
-        // o havuz bitene kadar rastgele yanlış sorar.
-    } else {
-         // Varsayılan tek geçiş
-         currentQuestionIndex++;
-         displayCurrentQuestion();
-    }
+    // repeatWrong modunun ikinci turu (sadece yanlışlar) initializeQuiz(true) içinde işlenir.
+    // nextQuestion fonksiyonu sadece mevcut havuzdaki sıradaki elemana geçer.
 }
 
 
 function endQuiz() {
      // Quiz bittiğinde bitiş ekranını göster
-     // Hesaplama mantığını basitleştirelim: Quiz havuzundaki toplam soru sayısı ve localStorage'daki toplam yanlış sayısı.
-     // Bu tam olarak bu oturumdaki doğru sayısını göstermese de, genel performansı yansıtır.
-     // Eğer daha doğru bir skor isteniyorsa, her oturumun yanlışlarını ayrı takip etmek gerekir, bu da localStorage yapısını veya başka bir depolama yöntemini karmaşıklaştırır.
-     // Şimdilik, toplam soru sayısını velocalStorage'daki genel yanlış sayısını gösterelim.
-
      const totalCount = quizPool.length; // Bu oturumda sorulan toplam soru sayısı
-     const uniqueWrongCountInLocalStorage = new Set(wrongAnswerIds).size; // Tüm oturumlarda yanlış yapılan benzersiz soru sayısı
 
-     // Gösterilen skor, bu oturumda sorulan sorulardan, localStorage'daki yanlışlar listesinde olanların düşülmesiyle elde edilebilir.
-     const wrongInThisPool = quizPool.filter(q => wrongAnswerIds.includes(q.id)).length;
-     const correctInThisPool = totalCount - wrongInThisPool;
+     // Bu oturumda doğru cevaplananları hesapla:
+     // Bu oturumdaki soru havuzunda olup, yanlışlar listesinde OLMAYAN sorular
+     const correctInThisPool = quizPool.filter(q => !wrongAnswerIds.includes(q.id)).length;
 
 
      showEndScreen(correctInThisPool, totalCount);
@@ -356,17 +377,8 @@ async function loadQuestions() {
             }
             const questions = await response.json();
             console.log(`Yüklendi: ${fileInfo.filePath}, ${questions.length} soru.`);
-            // JSON'daki her soru objesine, karşılık geldiği KISA dosya adını ekle (HTML ile eşleşmesi için)
-            // JSON'daki 'file' alanının UZUN değerini saklıyoruz (karşılaştırma için)
-             return questions.map(q => ({
-                 ...q,
-                 // 'file' alanı artık HTML checkbox değeri ile eşleşen KISA isim olacak
-                 // Orijinal JSON'daki uzun değeri ise başka bir alanda saklayabiliriz veya sadece filtrelemede kullanırız
-                 // Filtrelemede orijinal uzun değeri kullanmak daha doğru, o yüzden q.file alanını değiştirmeyelim
-                 // Sadece fileMappings objesinde eşleşmeyi tutalım ve filtreleme sırasında kullanalım.
-                 // JSON'daki 'file' değeri uzun haliyle kalacak.
-             }));
-
+            // JSON'dan yüklenen soruların 'file' alanı hala uzun isimleri içeriyor, bu şekilde kalsın.
+            return questions;
 
         } catch (error) {
             console.error(`Hata oluştu: ${error}`);
@@ -379,8 +391,6 @@ async function loadQuestions() {
     const results = await Promise.all(fetchPromises);
 
     // Tüm soruları tek bir dizide birleştir
-    // JSON'dan yüklenen soruların 'file' alanı hala uzun isimleri içeriyor.
-    // Bu diziyi kullanacağız.
     allQuestions = results.flat(); // flat() iç içe dizileri düzleştirir
      console.log('Toplam yüklü soru:', allQuestions.length);
 
