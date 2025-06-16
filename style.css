@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 700px; /* Daha dar bir genişlik */
+    max-width: 800px; /* Kapsayıcıyı biraz genişlettik */
     margin: 20px auto; /* Üstten/alttan boşluk, yatayda otomatik ortala */
     background: #ffffff; /* Beyaz arka plan */
     padding: 30px; /* İç boşlukları artır */
@@ -33,13 +33,28 @@ p {
     font-size: 1.1em;
 }
 
-.selection-section {
+/* Yeni eklenen container için flexbox */
+.selection-options-container {
+    display: flex;
+    flex-wrap: wrap; /* Alan daralırsa alt alta geçsin */
+    gap: 20px; /* Bölümler arası boşluk */
     margin-bottom: 25px;
+}
+
+.selection-section {
+    flex: 1; /* Esnek genişlik */
+    min-width: 300px; /* Minimum genişlik belirleyerek dar alanda alt alta geçmeyi kontrol et */
     padding: 20px;
     border: 1px solid #cce5ff; /* Açık mavi çerçeve */
     border-radius: 8px;
     background-color: #e9f7ff; /* Çok açık mavi arka plan */
 }
+
+.selection-section.half-width {
+     /* flex: 1;  half-width için zaten flex: 1 kullanabiliriz veya daha kontrollü bir genişlik */
+     /* width: calc(50% - 10px); Eğer flexbox gap kullanmıyorsanız veya daha hassas kontrol isterseniz */
+}
+
 
 .selection-section h2 {
     margin-top: 0;
@@ -188,6 +203,7 @@ button:disabled {
 
 #review-wrong-btn {
     background-color: #dc3545; /* Kırmızı */
+    margin-bottom: 10px; /* Temizle butonu ile arasına boşluk */
 }
 #review-wrong-btn:hover {
     background-color: #c82333;
@@ -199,6 +215,7 @@ button:disabled {
     border: 1px solid #f5c6cb; /* Açık kırmızı çerçeve */
     border-radius: 8px;
     background-color: #f8d7da; /* Çok açık kırmızı arka plan */
+    position: relative; /* Temizle butonu için pozisyonlama */
 }
 
 .wrong-summary h3 {
@@ -207,6 +224,7 @@ button:disabled {
     color: #721c24; /* Koyu kırmızı başlık */
     border-bottom: 1px solid #f5b9be;
     padding-bottom: 10px;
+    margin-bottom: 15px; /* Liste ile arasına boşluk */
 }
 
 #wrong-answers-list {
@@ -214,8 +232,8 @@ button:disabled {
     padding-left: 20px; /* Sol boşluk */
     max-height: 150px; /* Belirli bir yükseklik vererek kaydırma çubuğu oluştur */
     overflow-y: auto; /* İçerik taştığında kaydırma çubuğu göster */
-    border-top: 1px solid #f5b9be; /* Üst çizgi */
-    padding-top: 10px;
+    /* border-top moved to h3 padding-bottom */
+    /* padding-top removed */
 }
 
 #wrong-answers-list li {
@@ -223,11 +241,31 @@ button:disabled {
     border-bottom: 1px solid #f5b9be; /* Alt çizgi */
     font-size: 0.95em;
     color: #721c24; /* Koyu kırmızı metin */
+    word-wrap: break-word; /* Uzun metinler için */
 }
 
 #wrong-answers-list li:last-child {
     border-bottom: none;
 }
+
+.clear-button {
+    background-color: #6c757d; /* Gri */
+    width: auto; /* Otomatik genişlik */
+    padding: 5px 10px; /* Daha küçük iç boşluk */
+    margin-top: 0;
+    margin-bottom: 10px; /* Liste ile arasına boşluk */
+    display: inline-block; /* Başlık ve liste ile aynı satırda olabilir */
+    font-size: 0.9em;
+    border-radius: 4px;
+    position: absolute; /* Yanlış listesi başlığının yanına konumlandır */
+    top: 20px; /* Yukarıdan boşluk */
+    right: 20px; /* Sağdan boşluk */
+}
+
+.clear-button:hover {
+    background-color: #5a6268;
+}
+
 
 /* Quiz Bitti Ekranı Stilleri */
 #end-screen {
