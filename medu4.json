@@ -1227,5 +1227,506 @@
     "correct_answer": "A",
     "user_answer": "C",
     "source": null
+  },
+  {
+    "id": "medu2_q72",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 72,
+    "question": "İnfertil kadında tübal patensi değerlendirmek için en duyarlı yöntem hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Laparoskopik kromotübasyon",
+      "B": "Histerosalpingografi",
+      "C": "Histerokontrastsonografi",
+      "D": "Serum klamidya antikor taraması",
+      "E": "Fallopian tüp köpük testi"
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu2_q73",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 73,
+    "question": "Aşırı aktif mesanenin medikal tedavisinde beta 3 adrenerjik agonist olarak kullanılan ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mirabegron",
+      "B": "Misoprostol",
+      "C": "Duloksetin",
+      "D": "Trospiyum klorür",
+      "E": "Atosiban"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q74",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 74,
+    "question": "Omuz distosisinde uygun yönetim için aşağıdaki manevraların sıralaması nasıl olmalıdır?\n1.Woods vida manevrası\n2.Kasıtlı klavikula kırığı\n3.Zavanelli manevrası\n4.Mc Roberts manevrası",
+    "options": {
+      "A": "4.1.2.3",
+      "B": "1.2.3.4",
+      "C": "1.2.4.3",
+      "D": "4.2.1.3",
+      "E": "1.4.2.3"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu2_q75",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 75,
+    "question": "Aşağıdakilerden hangisi ağır preeklampsi - hafif preeklampsi ayrımında kullanılmaz?",
+    "options": {
+      "A": "Proteinüri miktarı",
+      "B": "Trombosit sayısı",
+      "C": "Serum Kreatinin değeri",
+      "D": "Sistolik Tansiyon değeri",
+      "E": "Aspartat Aminotransferaz değeri"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q76",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 76,
+    "question": "Aşırı aktif mesanenin olmazsa olmaz komponentleri hangi şıkta doğru verilmiştir?\nI. Sık idrara çıkma\nII. Sıkışma hissi\nIII. Stres üriner inkontinans\nIV. Urge üriner inkontinans",
+    "options": {
+      "A": "I - II",
+      "B": "I - IV",
+      "C": "I - II - III",
+      "D": "I - II - IV",
+      "E": "I - II - III - IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q77",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 77,
+    "question": "Görmüş olduğunuz NST paterni aşağıdakilerden hangisi ile uyumludur? (Resimdeki NST paterni: Geç deselerasyonları gösteriyor)",
+    "options": {
+      "A": "Geç deselerasyon",
+      "B": "Akselerasyon",
+      "C": "Erken deselerasyon",
+      "D": "Variabl (değişken) deselerasyon",
+      "E": "Fetal bradikardi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q78",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 78,
+    "question": "Postpartum kanamada görsel olarak kan kaybı miktarını değerlendirmede aşağıda verilen ölçümlerden hangisi doğru verilmemiştir?",
+    "options": {
+      "A": "Tam dolu bir Böbrek küveti = 800 cc",
+      "B": "Kanlı spanç = 30 cc",
+      "C": "Adet pedinin orta kısmını dolduran kanama = 100cc",
+      "D": "Adet pedi dışına taşan kanama = 300cc",
+      "E": "Hastanın belden aşağı yatak kısımını tamamen dolduran kanama = 1000 cc"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q79",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 79,
+    "question": "Aşağıdakilerden hangisi fonksiyonel üriner inkontinans görülen durumlara örnek teşkil etmez?",
+    "options": {
+      "A": "Hipertansiyon",
+      "B": "Kabızlık",
+      "C": "Enfeksiyon",
+      "D": "Hareketsizlik",
+      "E": "Deliryum"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q80",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 80,
+    "question": "Aşağıda verilen cerrahi yaklaşımlardan hangisi postpartum kanamada uygulanmaz?",
+    "options": {
+      "A": "Hipogastrik arter ligasyonu (trunkus posterior dalını vermeden kranial kısımdan)",
+      "B": "Hipogastrik arter ligasyonu (trunkus posterior dalını verdikten sonra)",
+      "C": "Hipogastrik arter ligasyonu (trunkus anterior dalı hizasından)",
+      "D": "Uterin arter hizasından ligasyon",
+      "E": "Aortik kompresyon (renal arter dalını verdikten sonra)"
+    },
+    "correct_answer": "A",
+    "user_answer": "C",
+    "source": null
+  },
+  {
+    "id": "medu2_q81",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 81,
+    "question": "Aşağıdakilerden hangisi pelvik taban disfonksiyonunun risk faktörleri arasında yer almaz?",
+    "options": {
+      "A": "Irksal farklılık",
+      "B": "İleri yaş",
+      "C": "Diyabetes mellitus",
+      "D": "Kronik Obstrüktif Akciğer Hastalığı",
+      "E": "Artmış kafein alımı"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu2_q82",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 82,
+    "question": "Pelvik taban disfonksiyonu ön tanılı hasta değerlendirilmesinde aşağıdaki tanı testlerinden hangisi birinci basamak testler arasındadır?",
+    "options": {
+      "A": "İdrar tahlili ve kültürü",
+      "B": "Anorektal manometri",
+      "C": "Endoanal Ultrasonografi",
+      "D": "Manyetik Rezonans Görüntüleme",
+      "E": "Defekografi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q83",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 83,
+    "question": "Aşağıdakilerden hangisi doğal aile planlaması yöntemlerinden değildir?",
+    "options": {
+      "A": "Bariyer yöntemler",
+      "B": "Vaginal duş",
+      "C": "Takvim yöntemi",
+      "D": "Koitus interruptus",
+      "E": "Bazal vücut ısısı yöntemi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "."
+  },
+  {
+    "id": "medu2_q84",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 84,
+    "question": "Pearl indexi ile ne belirlenir?",
+    "options": {
+      "A": "Kontraseptif yöntemin başarısızlığı",
+      "B": "İlaçların gebelikteki teratojenite riski",
+      "C": "Çoğul gebelik oranı",
+      "D": "infertilitede tubal faktör belirlenmesi",
+      "E": "Gebelikte diabet çıkma riski"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "."
+  },
+  {
+    "id": "medu2_q85",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 85,
+    "question": "Aşağıdakilerden hangisinin tanısı heparin challenge test ile konur?",
+    "options": {
+      "A": "Septik pelvik tromboflebit",
+      "B": "Mastit",
+      "C": "Endometrit",
+      "D": "Pyelonefrit",
+      "E": "Atelektazi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "."
+  },
+  {
+    "id": "medu2_q86",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 86,
+    "question": "En sık puerperal ateş nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Angojman",
+      "B": "Mastit",
+      "C": "Atelektazi",
+      "D": "Tromboflebit",
+      "E": "Endomyometrit"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "."
+  },
+  {
+    "id": "medu2_q87",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 87,
+    "question": "T.C. Sağlık Bakanlığı gebe takip kılavuzuna göre gebeye başlanan D vitamini doğum sonrası ne kadar süreye kadar kullanılmalıdır?",
+    "options": {
+      "A": "6 ay",
+      "B": "3 ay",
+      "C": "1 ay",
+      "D": "12 ay",
+      "E": "9 ay"
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu2_q88",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 88,
+    "question": "Gestasyonel hipertansiyon tanısında önemli bir parametre olan “doğumdan …. hafta sonra normal kan basıncı değerleri olacak” şeklindeki tanı kriteri için, boş bırakılan hafta aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "12",
+      "B": "11",
+      "C": "10",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q89",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 89,
+    "question": "Aşağıdakilerden hangisi modifiye biyofizik profil parametrelerini oluşturur?\nI) NST\nII) Fetal tonus\nIII) Fetal hareketler\nIV) Amnion Miktarı\nV) Fetal solunum",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve V",
+      "C": "I,II ve III",
+      "D": "III,IV ve V",
+      "E": "II,III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q90",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 90,
+    "question": "Döllenmeden sonra uterusa implante olan yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Blastosist",
+      "B": "Zigot",
+      "C": "Morula",
+      "D": "Blastomer",
+      "E": "Gastrula"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q91",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 91,
+    "question": "HPV infeksiyonunun sitopatolojik incelemede patognımonik özelliği hangisidir?",
+    "options": {
+      "A": "Koilositoz",
+      "B": "Parakeratoz",
+      "C": "Spongiozis",
+      "D": "Akantozis",
+      "E": "Hiçbiri"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q92",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 92,
+    "question": "35 yaşında sağ memede ele gelen kitlesi ve annede meme kanseri öyküsü olan kadına tanısal amaçlı mamografi ve meme ultrasonu yapılmış olup mamografide sağ meme üst dış kadranda 3 cm boyutunda fokal asimetri, meme ultrasonunda da sağ meme yine üst dış kadranda ele gelen lokalizasyonda 25x21 mm boyutunda düzensiz şekil ve kontura sahip, hipoekoik görünümde cilde dik yerleşimli malignite için yüksek şüpheli solid kitle ve her iki memede dağınık yerleşimli multiple 1 cm'den küçük kistler görülmüştür. Raporda kategori 4C olarak değerlendirilen bu olgu için ilk yapılması gereken en doğru öneri hangisidir?",
+    "options": {
+      "A": "Sağ memedeki kitleden tru-cut biyopsi",
+      "B": "Meme MRG ile ileri değerlendirme",
+      "C": "Metastaz taraması için sintigrafi ve akciğer grafisi",
+      "D": "PET-BT",
+      "E": "Meme muayenesi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q93",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 93,
+    "question": "Akut kolesistit düşünülen hastada ilk kullanılacak görüntüleme yöntemi hangisidir?",
+    "options": {
+      "A": "Ultrasonografi",
+      "B": "Yatarak batın grafisi",
+      "C": "Bilgisayarlı Tomografi",
+      "D": "MR Kolanjiyopankreatikografi",
+      "E": "Ayakta batın grafisi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q94",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 94,
+    "question": "Temel endikasyonu vezikoüreteral reflü (VUR) araştırılması olan ve mesaneye kateterle dilüe kontrast madde verilerek yapılan görüntüleme yöntemi hangisidir?",
+    "options": {
+      "A": "Voiding sistoüretrografi (VSUG)",
+      "B": "BT",
+      "C": "MR",
+      "D": "İntravenöz pyelografi (İVP)",
+      "E": "Ultrason"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "VUR görüntülenmesinde kullanılan temel görüntüleme yöntemi VSUG 'dur.",
+    "source": "ERCAN TUNCEL RADYOLOJİ"
+  },
+  {
+    "id": "medu2_q95",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 95,
+    "question": "Kronik pelvik ağrısı bulunan reprodüktif dönemdeki bir kadın hastanın çekilen pelvik MR incelemesinde uterusta diffüz boyut artışı ve T2A MR sekansta myometrium içerisinde hiperintens odaklar saptanmıştır. En olası tanı hangisidir?",
+    "options": {
+      "A": "Adenomiyozis",
+      "B": "Leiomiyom",
+      "C": "Nabothi kistleri",
+      "D": "Gestasyonel trofoblastik hastalık",
+      "E": "Endometrial polip"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Hastanın kliniği ve radyolojik görünüm adenomyozis için tipiktir.",
+    "source": "ERCAN TUNCEL RADYOLOJİ"
+  },
+  {
+    "id": "medu2_q96",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 96,
+    "question": "Menopoz döneminde bir kadının vajinal ph ı aşağıdakilerden hangisi ile uyumludur?",
+    "options": {
+      "A": "6-7,5",
+      "B": "3-4",
+      "C": "2-2,5",
+      "D": "4-4,5",
+      "E": "8-9"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q97",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 97,
+    "question": "Aşağıdakilerden hangisi karın ağrısı sebebiyle acile başvuran 18 yaşındaki kadın hastadan ilk istenecek tetkikler arasında değildir?",
+    "options": {
+      "A": "Manyetik Rezonans Görüntüleme",
+      "B": "Hemogram",
+      "C": "Akut faz reaktanları",
+      "D": "Beta hcg",
+      "E": "İdrar tahlili"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q98",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 98,
+    "question": "Dizüri şikayeti olan ve üriner sistem enfeksiyonu tanısı düşünülen bir hasta hakkında doğru ifadelerin bulunduğu seçenek hangisidir?\nI) Hamile olan kadınlarda gelişen üriner sistem enfeksiyonları komplike üriner sistem enfeksiyonu olarak kabul edilir.\nII) Florokinon grubu antibiyotikler üriner sistem enfeksiyonu tedavisinde profilaksi amacıyla kullanılır.\nIII) Üriner sistem enfeksiyonlarında en sık görülen yayılım şekli asendan yayılımdır.\nIV) Hastanın idrar kültüründe vankomisin dirençli enterekok üremesi panik bir değer değildir.\nV) Üriner sistem enfeksiyonu tanısında altın standart idrar kültürüdür.",
+    "options": {
+      "A": "I - III – V",
+      "B": "I – III",
+      "C": "II - V",
+      "D": "I –V",
+      "E": "II – III - IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu2_q99",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 99,
+    "question": "Gebelikte malformasyon nedenleri içinde aşağıdakilerden hangisi en sık görülür?",
+    "options": {
+      "A": "Genetik nedenler",
+      "B": "İlaçlar",
+      "C": "Radyasyon",
+      "D": "Hipertermi",
+      "E": "Mikroorganizmalar"
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "explanation": ".",
+    "source": "."
+  },
+  {
+    "id": "medu2_q100",
+    "file": "DN4-CERRAHİ BİLİMLER 1. DÖNGÜ (4.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 100,
+    "question": "Gebelikte teratojenik olarak en duyarlı dönem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Organogenez dönemi(4-10 hafta)",
+      "B": "Blastogenez dönemi ( 0-4 hafta)",
+      "C": "fetal dönem(10-40 hafta)",
+      "D": "postpartum dönem",
+      "E": "prekonsepsiyonel dönem"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "."
   }
 ]
