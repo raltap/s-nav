@@ -13,7 +13,7 @@
             <h1>Medu Quiz Uygulaması</h1>
             <p>Quiz yapmak istediğiniz seçenekleri belirleyin:</p>
 
-            <div class="selection-options-container"> <!-- Yeni container div -->
+            <div class="selection-options-container"> <!-- Konular ve Soru Aralığı yan yana div'i -->
                 <div class="selection-section half-width"> <!-- Konular bölümü -->
                     <h2>Konular</h2>
                     <!-- Checkboxların 'value' değerleri JS'deki dosya eşleşmesi için kullanılacak -->
@@ -25,9 +25,8 @@
 
                 <div class="selection-section half-width"> <!-- Soru Aralığı bölümü -->
                     <h2>Soru Aralığı</h2>
-                     <!-- Tüm sorular seçeneği radio button -->
+                     <!-- Tüm radio buttonlar AYNI 'name' özelliğine sahip olmalı -->
                     <label><input type="radio" name="question-range" value="all" checked> Tüm Sorular</label><br>
-                    <!-- Aralık seçenekleri radio buttonlar -->
                     <label><input type="radio" name="question-range" value="1-25"> 1-25 Arası</label><br>
                     <label><input type="radio" name="question-range" value="26-50"> 26-50 Arası</label><br>
                     <label><input type="radio" name="question-range" value="51-75"> 51-75 Arası</label><br>
@@ -38,6 +37,7 @@
 
             <div class="selection-section"> <!-- Quiz Modu bölümü -->
                 <h2>Quiz Modu</h2>
+                 <!-- Tüm radio buttonlar AYNI 'name' özelliğine sahip olmalı -->
                 <label><input type="radio" name="quiz-mode" value="once" checked> 1- Rastgele - Tüm sorular sadece bir kez sorulacak</label><br>
                 <label><input type="radio" name="quiz-mode" value="repeatWrong"> 2- Rastgele - Tüm sorular 1 defa (yanlış yapılanlar tekrar sorulacak)</label><br>
                 <label><input type="radio" name="quiz-mode" value="infinite"> 3- Rastgele - Sonsuz Döngü</label> <!-- Yeni mod -->
@@ -51,7 +51,7 @@
             <div id="wrong-answers-summary" class="wrong-summary" style="display: none;">
                 <h3>Yanlış Yapılan Sorular (<span id="wrong-count">0</span>)</h3>
                  <!-- Yanlışları temizleme butonu -->
-                <button id="clear-wrong-btn" class="clear-button">Yanlışları Temizle</button>
+                <button id="clear-wrong-btn" class="clear-button">Temizle</button> <!-- Kısa metin -->
                 <ul id="wrong-answers-list">
                     <!-- Yanlış yapılan sorular buraya JavaScript tarafından eklenecek -->
                 </ul>
@@ -75,7 +75,7 @@
          <div id="end-screen" style="display: none;">
             <h2>Quiz Tamamlandı!</h2>
             <p id="final-score"></p>
-            <button id="restart-from-end-btn">Yeni Quize Başla</button>
+            <button id="restart-from-end-btn">Yeni Quize Başla</button> <!-- Metin değiştirildi -->
             <button id="back-to-menu-from-end-btn">Ana Menüye Dön</button>
          </div>
     </div>
