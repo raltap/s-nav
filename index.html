@@ -8,27 +8,24 @@
 </head>
 <body>
 
-    <!-- Yeni Eklendi: İstatistik Alanı -->
-    <div id="stats-area">
-        <span id="active-users-display">Aktif Kullanıcılar: Bilgi yok (istemci tarafı)</span>
-        <button id="show-stats-btn">İstatistikler</button>
-    </div>
-
     <div class="container">
         <div id="main-menu">
             <h1>Medu Quiz Uygulaması</h1>
             <p>Quiz yapmak istediğiniz seçenekleri belirleyin:</p>
 
-            <div class="selection-options-container">
-                <div class="selection-section half-width">
+            <div class="selection-options-container"> <!-- Konular ve Soru Aralığı yan yana div'i -->
+                <div class="selection-section half-width"> <!-- Konular bölümü -->
                     <h2>Konular</h2>
+                    <!-- Checkboxların 'value' değerleri JS'deki dosya eşleşmesi için kullanılacak -->
                     <label><input type="checkbox" class="file-checkbox" value="Medu-4"> 1. Döngü</label><br>
                     <label><input type="checkbox" class="file-checkbox" value="Medu-9"> 2. Döngü</label><br>
                     <label><input type="checkbox" class="file-checkbox" value="Medu-3"> 3. Döngü</label><br>
+                    <!-- Buraya diğer Medu dosyaları için de benzer checkboxlar ekleyebilirsiniz -->
                 </div>
 
-                <div class="selection-section half-width">
+                <div class="selection-section half-width"> <!-- Soru Aralığı bölümü -->
                     <h2>Soru Aralığı</h2>
+                     <!-- Tüm radio buttonlar AYNI 'name' özelliğine sahip olmalı -->
                     <label><input type="radio" name="question-range" value="all" checked> Tüm Sorular</label><br>
                     <label><input type="radio" name="question-range" value="1-25"> 1-25 Arası</label><br>
                     <label><input type="radio" name="question-range" value="26-50"> 26-50 Arası</label><br>
@@ -37,19 +34,24 @@
                 </div>
             </div>
 
-            <div class="selection-section">
+
+            <div class="selection-section"> <!-- Quiz Modu bölümü -->
                 <h2>Quiz Modu</h2>
+                 <!-- Tüm radio buttonlar AYNI 'name' özelliğine sahip olmalı -->
                 <label><input type="radio" name="quiz-mode" value="once" checked> 1- Rastgele - Tüm sorular sadece bir kez sorulacak</label><br>
                 <label><input type="radio" name="quiz-mode" value="repeatWrong"> 2- Rastgele - Tüm sorular 1 defa (yanlış yapılanlar tekrar sorulacak)</label><br>
-                <label><input type="radio" name="quiz-mode" value="infinite"> 3- Rastgele - Sonsuz Döngü</label>
+                <label><input type="radio" name="quiz-mode" value="infinite"> 3- Rastgele - Sonsuz Döngü</label> <!-- Yeni mod -->
             </div>
 
             <button id="start-quiz-btn">Quize Başla</button>
+             <!-- review-wrong-btn başlangıçta gizli olacak, yanlışlar varsa görünür olacak -->
             <button id="review-wrong-btn" style="display: none;">Yanlış Yapılanları Tekrar Çöz</button>
+
 
             <div id="wrong-answers-summary" class="wrong-summary" style="display: none;">
                 <h3>Yanlış Yapılan Sorular (<span id="wrong-count">0</span>)</h3>
-                <button id="clear-wrong-btn" class="clear-button">Temizle</button>
+                 <!-- Yanlışları temizleme butonu -->
+                <button id="clear-wrong-btn" class="clear-button">Temizle</button> <!-- Kısa metin -->
                 <ul id="wrong-answers-list">
                     <!-- Yanlış yapılan sorular buraya JavaScript tarafından eklenecek -->
                 </ul>
@@ -62,41 +64,23 @@
             <div id="options-container">
                 <!-- Şık butonları buraya JavaScript tarafından eklenecek -->
             </div>
-            <div id="feedback"></div>
-            <div id="explanation" style="display: none;"></div>
+            <div id="feedback"></div> <!-- Doğru/Yanlış geri bildirimi -->
+            <div id="explanation" style="display: none;"></div> <!-- Açıklama -->
 
+             <!-- next-question-btn doğru cevap verildiğinde görünür olacak -->
             <button id="next-question-btn" style="display: none;">Sonraki Soru</button>
             <button id="back-to-menu-btn">Ana Menüye Dön</button>
         </div>
 
-        <div id="end-screen" style="display: none;">
+         <div id="end-screen" style="display: none;">
             <h2>Quiz Tamamlandı!</h2>
             <p id="final-score"></p>
-            <button id="restart-from-end-btn">Yeni Quize Başla</button>
+            <button id="restart-from-end-btn">Yeni Quize Başla</button> <!-- Metin değiştirildi -->
             <button id="back-to-menu-from-end-btn">Ana Menüye Dön</button>
-        </div>
+         </div>
     </div>
 
-    <!-- Yeni Eklendi: İstatistik Modal Penceresi -->
-    <div id="stats-modal" class="stats-modal">
-        <div class="stats-modal-content">
-            <span class="close-button">×</span>
-            <h3>İstatistikler</h3>
-            <div class="stats-section">
-                <h4>Son Bir Saat</h4>
-                <p>Çözülen Soru: <span id="hourly-solved">0</span></p>
-                <p>Doğru Cevap: <span id="hourly-correct">0</span></p>
-                <p>Yanlış Cevap: <span id="hourly-wrong">0</span></p>
-            </div>
-            <div class="stats-section">
-                <h4>Genel Toplam</h4>
-                <p>Çözülen Soru: <span id="overall-solved">0</span></p>
-                <p>Doğru Cevap: <span id="overall-correct">0</span></p>
-                <p>Yanlış Cevap: <span id="overall-wrong">0</span></p>
-            </div>
-        </div>
-    </div>
-
+    <!-- JavaScript dosyasını ekle -->
     <script src="script.js"></script>
 </body>
 </html>
