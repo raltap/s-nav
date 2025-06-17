@@ -30,17 +30,6 @@ const nextQuestionBtn = document.getElementById('next-question-btn');
 const backToMenuBtn = document.getElementById('back-to-menu-btn');
 const finalScorePara = document.getElementById('final-score');
 
-// Yeni Eklenen Elementler
-const showStatsBtn = document.getElementById('show-stats-btn');
-const statsModal = document.getElementById('stats-modal');
-const closeButton = statsModal.querySelector('.close-button');
-const hourlySolvedSpan = document.getElementById('hourly-solved');
-const hourlyCorrectSpan = document.getElementById('hourly-correct');
-const hourlyWrongSpan = document.getElementById('hourly-wrong');
-const overallSolvedSpan = document.getElementById('overall-solved');
-const overallCorrectSpan = document.getElementById('overall-correct');
-const overallWrongSpan = document.getElementById('overall-wrong');
-
 
 let allQuestions = []; // Tüm soruları saklar
 let quizPool = []; // Seçilen dosya ve aralığa göre filtrelenmiş tüm sorular (Sonsuz mod ana havuzu)
@@ -51,14 +40,6 @@ let correctCountInCurrentQuiz = 0; // Bu oturumda doğru cevaplanan soru sayıs�
 
 // localStorage'dan yanlış yapılanları yükle (Varsayılan olarak boş dizi)
 let wrongAnswerIds = JSON.parse(localStorage.getItem('wrongAnswerIds') || '[]');
-
-// Yeni: İstatistikler için localStorage depolaması
-let quizStats = {
-    totalSolved: 0,
-    totalCorrect: 0,
-    totalWrong: 0,
-    questionLog: [] // { timestamp: 167888888, isCorrect: true, questionId: "medu3_q1" }
-};
 
 // --- Yardımcı Fonksiyonlar ---
 
@@ -135,86 +116,6 @@ function clearWrongAnswers() {
 }
 
 
-// Yeni: İstatistikleri localStorage'dan yükle
-function loadStats() {
-    const storedStats = localStorage.getItem('quizStats');
-    if (storedStats) {
-        quizStats = JSON.parse(storedStats);
-        // questionLog'daki timestamp'ler sayı olarak saklanıyor, Date objesine dönüştürmeye gerek yok.
-    }
-    // Eski/geçersiz logları temizle (örneğin 1 aydan eski)
-    // Şu anki senaryoda sadece son 1 saat lazım olduğundan, çok eski logları temizlemek performansa yardımcı olabilir.
-    // Şimdilik temizleme işlemi yapmıyoruz, `getStatsForLastHour` sadece son 1 saati filtreleyecek.
-    // Ancak log boyutu artarsa burada bir temizlik mekanizması düşünülebilir.
-}
-
-// Yeni: İstatistikleri localStorage'a kaydet
-function saveStats() {
-    localStorage.setItem('quizStats', JSON.stringify(quizStats));
-}
-
-// Yeni: İstatistikleri güncelle (her soru cevaplandığında çağrılır)
-function updateStats(isCorrect, questionId) {
-    quizStats.totalSolved++;
-    const logEntry = {
-        timestamp: Date.now(), // Şu anki zaman damgası (milisecond)
-        isCorrect: isCorrect,
-        questionId: questionId
-    };
-    quizStats.questionLog.push(logEntry);
-
-    if (isCorrect) {
-        quizStats.totalCorrect++;
-    } else {
-        quizStats.totalWrong++;
-    }
-
-    saveStats(); // Değişiklikleri kaydet
-}
-
-// Yeni: Son bir saatteki istatistikleri hesapla
-function getStatsForLastHour() {
-    const oneHourAgo = Date.now() - (60 * 60 * 1000); // 1 saat önceki zaman damgası
-    const recentLogs = quizStats.questionLog.filter(log => log.timestamp >= oneHourAgo);
-
-    let solved = recentLogs.length;
-    let correct = recentLogs.filter(log => log.isCorrect).length;
-    let wrong = solved - correct;
-
-    return { solved, correct, wrong };
-}
-
-// Yeni: Genel toplam istatistikleri al
-function getOverallStats() {
-    return {
-        solved: quizStats.totalSolved,
-        correct: quizStats.totalCorrect,
-        wrong: quizStats.totalWrong
-    };
-}
-
-// Yeni: İstatistik modalını göster
-function showStatsModal() {
-    const hourlyStats = getStatsForLastHour();
-    const overallStats = getOverallStats();
-
-    hourlySolvedSpan.textContent = hourlyStats.solved;
-    hourlyCorrectSpan.textContent = hourlyStats.correct;
-    hourlyWrongSpan.textContent = hourlyStats.wrong;
-
-    overallSolvedSpan.textContent = overallStats.solved;
-    overallCorrectSpan.textContent = overallStats.correct;
-    overallWrongSpan.textContent = overallStats.wrong;
-
-    statsModal.style.display = 'flex'; // CSS'teki flex özelliğini kullanır
-}
-
-// Yeni: İstatistik modalını gizle
-function hideStatsModal() {
-    statsModal.style.display = 'none';
-}
-
-
 // --- Arayüz Durumu Yönetimi ---
 
 function showMainMenu() {
@@ -257,7 +158,10 @@ function showEndScreen(correctCount, totalCount) {
 
 
      // Bitiş ekranındaki düğmelere olay dinleyicileri ekle
+     // Önceki dinleyicileri kaldırmak daha iyi bir pratik olabilir, ancak bu basit uygulama için sorun yaratmaz.
      document.getElementById('restart-from-end-btn').onclick = () => {
+        // Sonsuz modda "Yeni Quize Başla" aynı ayarlarla devam eder (başlatma fonskiyonunu normal çağır)
+        // Diğer modlarda "Yeni Quize Başla" ana menüye döner.
         if (selectedMode === 'infinite') {
              initializeQuiz(false); // initializeQuiz zaten quizPool'u yeniden oluşturacak
         } else {
@@ -265,7 +169,6 @@ function showEndScreen(correctCount, totalCount) {
         }
      }
      document.getElementById('back-to-menu-from-end-btn').onclick = showMainMenu; // Ana menüye dön
-     quizArea.dataset.isReviewingWrong = 'false'; // Quiz bitince bu durumu sıfırla
 }
 
 
@@ -293,8 +196,6 @@ async function initializeQuiz(isReviewingWrong = false) {
         }
     }
 
-    quizArea.dataset.isReviewingWrong = isReviewingWrong.toString();
-
     // Seçilen dosya KISA isimlerini al (checkbox value'ları)
     const selectedFilesShortNames = Array.from(fileCheckboxes)
         .filter(checkbox => checkbox.checked)
@@ -312,35 +213,55 @@ async function initializeQuiz(isReviewingWrong = false) {
     const selectedMode = document.querySelector('input[name="quiz-mode"]:checked').value;
     const selectedRange = document.querySelector('input[name="question-range"]:checked').value;
 
+    // Seçilen dosyalara göre soruları filtrele (uzun file değeri üzerinden)
+    // Eğer yanlışları tekrar çözme modunda değilsek veya konu seçilmişse filtrele,
+    // aksi halde (yanlışları tekrar çözme ve konu seçilmemişse) tüm soruları al.
     let filteredByFiles = allQuestions; // Varsayılan olarak tüm sorular
-    if (selectedFilesShortNames.length > 0) { // Sadece konu seçiliyse filtrele
-       filteredByFiles = allQuestions.filter(q => selectedFilesJsonValues.includes(q.file));
+    if (!isReviewingWrong || (isReviewingWrong && selectedFilesShortNames.length > 0) ) {
+        if (selectedFilesShortNames.length > 0) { // Sadece konu seçiliyse filtrele
+           filteredByFiles = allQuestions.filter(q => selectedFilesJsonValues.includes(q.file));
+        } else if (!isReviewingWrong) { // Konu seçilmemiş ve yanlış çözme modu değilse (bu durum zaten yukarıda engelleniyor ama yine de kontrol)
+             // Bu duruma normalde girilmemeli çünkü konu seçimi zorunlu
+        }
+        // Eğer isReviewingWrong ve selectedFilesShortNames.length === 0 ise,
+        // tüm wrongAnswerIds'leri kontrol etmek için tüm allQuestions alınır.
     }
 
 
-    let filteredByRange = filteredByFiles;
+    // Seçilen aralığa göre filtrele (eğer "Tüm Sorular" seçili değilse ve tekrar çözme modu değilse)
+    let filteredByRange = filteredByFiles; // Varsayılan olarak dosya filtresi geçerli
+
+    // Yanlışları tekrar çöz modunda, soru aralığı seçimi dikkate alınmaz.
+    // Sadece diğer modlarda soru aralığı filtresi uygulanır.
     if (selectedRange !== 'all' && !isReviewingWrong) {
          filteredByRange = filteredByFiles.filter(q => {
             const qNumber = getQuestionNumberFromId(q.id);
-            if (isNaN(qNumber)) return false;
+            if (isNaN(qNumber)) return false; // Soru numarası alınamazsa ele
 
+            // Aralıkları kontrol et
             if (selectedRange === '1-25') return qNumber >= 1 && qNumber <= 25;
             if (selectedRange === '26-50') return qNumber >= 26 && qNumber <= 50;
             if (selectedRange === '51-75') return qNumber >= 51 && qNumber <= 75;
             if (selectedRange === '76+') return qNumber >= 76;
-            return false;
+            return false; // Tanımlanmamış aralık
          });
     }
 
 
+    // Son quiz havuzunu belirle
     if (isReviewingWrong) {
+         // Sadece yanlış yapılanları tekrar çöz modu için havuzu filtrele
+         // filteredByRange burada, EĞER konu seçimi yapılmışsa o konular içindeki yanlışları,
+         // EĞER konu seçimi yapılmamışsa TÜM yanlışları içerir.
          quizPool = filteredByRange.filter(q => wrongAnswerIds.includes(q.id));
          if (quizPool.length === 0) {
              alert('Tekrar çözmek için (seçili kriterlere uyan) yanlış yaptığınız soru bulunmamaktadır.');
-             showMainMenu();
+             showMainMenu(); // Ana menüye dön
              return;
          }
+         // Bu modda quiz havuzu zaten sadece yanlışları içerir.
     } else {
+        // Diğer modlar (once, repeatWrong, infinite) için ana havuz
         quizPool = filteredByRange;
     }
 
@@ -350,16 +271,19 @@ async function initializeQuiz(isReviewingWrong = false) {
          return;
      }
 
+    // Mevcut tur sorularını belirle
     if (selectedMode === 'infinite' || isReviewingWrong) {
+         // Sonsuz mod veya yanlışları tekrar çöz modu: quizPool'un kopyası tur havuzuna
         currentLoopQuestions = [...quizPool];
     } else {
+        // Once veya repeatWrong modu (ilk tur): quizPool'un kopyası tur havuzuna
         currentLoopQuestions = [...quizPool];
     }
 
 
-    shuffleArray(currentLoopQuestions);
-    currentQuestionIndex = 0;
-    correctCountInCurrentQuiz = 0;
+    shuffleArray(currentLoopQuestions); // Tur havuzunu karıştır
+    currentQuestionIndex = 0; // Tur içi indeksi sıfırla
+    correctCountInCurrentQuiz = 0; // Bu quizdeki doğru sayacını sıfırla
 
     showQuizArea();
     displayCurrentQuestion();
@@ -368,20 +292,21 @@ async function initializeQuiz(isReviewingWrong = false) {
 
 function displayCurrentQuestion() {
     const selectedMode = document.querySelector('input[name="quiz-mode"]:checked').value;
-    const isCurrentlyReviewingWrong = quizArea.dataset.isReviewingWrong === 'true';
+    const isReviewingWrong = quizArea.dataset.isReviewingWrong === 'true'; // Bu satır initializeQuiz'de set edilmeli
 
     // Eğer mevcut tur havuzu boşsa
     if (currentLoopQuestions.length === 0) {
-        if (selectedMode === 'infinite' && !isCurrentlyReviewingWrong) {
+        if (selectedMode === 'infinite' && !isReviewingWrong) { // Sadece normal sonsuz mod için
+            // Sonsuz moddaysak, ana havuzu (quizPool) tekrar karıştırıp tur havuzuna ekle
             currentLoopQuestions = [...quizPool];
             shuffleArray(currentLoopQuestions);
-            currentQuestionIndex = 0; // Sonsuz modda tur indeksi sıfırlanır
-            correctCountInCurrentQuiz = 0; // Sonsuz modda tur doğru sayısı sıfırlanır
-            console.log("Sonsuz mod: Yeni tur başladı!");
+             currentQuestionIndex = 0; // Sonsuz modda tur indeksi sıfırlanır
+             correctCountInCurrentQuiz = 0; // Sonsuz modda tur doğru sayısı sıfırlanır
+            console.log("Sonsuz mod: Yeni tur başladı!"); // Konsola bilgi yaz
         } else {
             // Diğer modlarda (veya yanlışları tekrar çöz modunda) tur havuzu bittiğinde quiz biter
-            endQuiz();
-            return;
+            endQuiz(); // Tüm sorular bittiğinde quiz'i bitir
+            return; // Fonksiyonu burada sonlandır
         }
     }
 
@@ -389,11 +314,13 @@ function displayCurrentQuestion() {
     const question = currentLoopQuestions.shift(); // Dizinin ilk elemanını alır ve diziden çıkarır
 
      // Soru sayısı gösterimi
-      if (selectedMode === 'infinite' && !isCurrentlyReviewingWrong) {
+      if (selectedMode === 'infinite' && !isReviewingWrong) {
+           // Sonsuz modda sadece turdaki sırayı göster (Toplam tur sayısı anlamsız)
            questionCounter.textContent = `Soru: ${currentQuestionIndex + 1}`;
       } else {
+           // Diğer modlarda (veya yanlışları tekrar çöz modunda) turdaki sırayı ve toplam quiz havuzunu göster
            currentQSpan.textContent = currentQuestionIndex + 1;
-           totalQSpan.textContent = quizPool.length;
+           totalQSpan.textContent = quizPool.length; // quizPool, o anki quiz için geçerli toplam soru sayısını tutar
            questionCounter.textContent = `Soru: ${currentQuestionIndex + 1} / ${quizPool.length}`;
       }
 
@@ -409,80 +336,87 @@ function displayCurrentQuestion() {
 
 
     // Şıkları karıştır
+    // JSON'daki options objesini { key: 'A', text: 'Metin A' } gibi objeler dizisine dönüştür
     const optionsArray = Object.keys(question.options).map(key => ({
-        key: key,
-        text: question.options[key]
+        key: key, // Orijinal anahtar (A, B, C...)
+        text: question.options[key] // Şık metni
     }));
 
     const shuffledOptions = shuffleArray(optionsArray);
 
+    // Yeni etiketler (A, B, C, D, E) oluşturmak için bir dizi
     const newLabels = ['A', 'B', 'C', 'D', 'E'];
 
 
-    shuffledOptions.forEach((option, index) => {
+    shuffledOptions.forEach((option, index) => { // Karıştırılmış şıklar üzerinde döngü
         const button = document.createElement('button');
         button.classList.add('option-button');
 
+        // Butonun görünen metni: Yeni etiket +) Şık metni
         button.textContent = `${newLabels[index]}) ${option.text}`;
 
+        // Butonun dataset'inde orijinal anahtarı sakla (Doğruluk kontrolü için)
         button.dataset.originalKey = option.key;
-        button.dataset.questionId = question.id;
+        button.dataset.questionId = question.id; // Hangi soruya ait olduğunu da sakla
 
-        button.addEventListener('click', handleAnswerClick);
+        button.addEventListener('click', handleAnswerClick); // Olay dinleyicisi ekle
         optionsContainer.appendChild(button);
     });
 }
 
 function handleAnswerClick(event) {
     const selectedButton = event.target;
+    // Tıklanan butonun dataset'indeki orijinal anahtarı al
     const selectedOriginalKey = selectedButton.dataset.originalKey;
-    const questionId = selectedButton.dataset.questionId;
+     const questionId = selectedButton.dataset.questionId; // Soru ID'sini al
 
+    // allQuestions dizisinden soruyu bul
     const currentQuestion = allQuestions.find(q => q.id === questionId);
     if (!currentQuestion) {
          console.error("Soru bulunamadı:", questionId);
-         return;
+         return; // Soru bulunamazsa hata ver ve dur
     }
 
-    const correctAnswerKey = currentQuestion.correct_answer;
+    const correctAnswerKey = currentQuestion.correct_answer; // JSON'daki alana göre kullanıyoruz (Her zaman "A")
 
     // Tüm şıkları pasif hale getir
     Array.from(optionsContainer.children).forEach(button => {
         button.disabled = true;
     });
 
-    let isAnswerCorrect = false; // Yeni: İstatistikler için bayrak
-
     // Seçilen ve doğru şıkları işaretle ve geri bildirim ver
-    if (selectedOriginalKey === correctAnswerKey) {
+    // Orijinal anahtarı doğru cevap anahtarıyla karşılaştır
+    if (selectedOriginalKey === correctAnswerKey) { // selectedOriginalKey === "A" mı?
         selectedButton.classList.add('correct');
         feedbackDiv.textContent = 'Doğru!';
         feedbackDiv.style.color = 'green';
-        correctCountInCurrentQuiz++;
-        isAnswerCorrect = true; // Doğru cevaplandı
+        correctCountInCurrentQuiz++; // Bu quizdeki doğru sayısını artır
 
+
+        // Eğer bu soru yanlışlar listesindeyse, doğru cevaplandığı için listeden çıkar
         wrongAnswerIds = wrongAnswerIds.filter(id => id !== questionId);
-        saveWrongAnswers();
+        saveWrongAnswers(); // localStorage'ı güncelle
+
 
     } else {
         selectedButton.classList.add('wrong');
         feedbackDiv.textContent = 'Yanlış.';
         feedbackDiv.style.color = 'red';
-        isAnswerCorrect = false; // Yanlış cevaplandı
 
+        // Doğru şıkkı bul ve yeşil yap
+        // Doğru şık, orijinal anahtarı correct_answer olan şıktır (yani orijinal A şıkkı)
         Array.from(optionsContainer.children).forEach(button => {
-            if (button.dataset.originalKey === correctAnswerKey) {
+            if (button.dataset.originalKey === correctAnswerKey) { // dataset.originalKey === "A" olan butonu bul
                 button.classList.add('correct');
             }
         });
 
+        // Yanlış yapılanlar listesine ekle (ID'yi ekle)
         wrongAnswerIds.push(questionId);
-        saveWrongAnswers();
+        saveWrongAnswers(); // localStorage'ı güncelle
     }
 
-    // Yeni: İstatistikleri güncelle
-    updateStats(isAnswerCorrect, questionId);
-
+    // Açıklamayı göster (varsa)
     if (currentQuestion.explanation) {
         explanationDiv.textContent = 'Açıklama: ' + currentQuestion.explanation;
         explanationDiv.style.display = 'block';
@@ -490,53 +424,72 @@ function handleAnswerClick(event) {
          explanationDiv.style.display = 'none';
     }
 
+    // Sonraki soru düğmesini göster
     nextQuestionBtn.style.display = 'block';
+
+     // currentQuestionIndex'i burada artırmıyoruz, sadece 'Sonraki Soru' butonuna basınca artacak.
+     // Sonsuz modda index mantığı displayCurrentQuestion içinde yönetiliyor (shift ile).
 }
 
 function nextQuestion() {
+     // Sadece gösterimdeki soru sayısını artır (displayCurrentQuestion içinde tur bitince sıfırlanacak)
      currentQuestionIndex++;
+     // currentLoopQuestions'tan sıradaki soruyu çekecek ve gösterecek olan fonksiyonu çağır
      displayCurrentQuestion();
+
+    // Not: Sonsuz modda quiz gerçekte hiç bitmez, hep displayCurrentQuestion çağrılır.
+    // Diğer modlarda currentLoopQuestions boşalınca displayCurrentQuestion içindeki kontrol endQuiz'i çağırır.
 }
 
 
 function endQuiz() {
-     const totalCount = quizPool.length;
+     // Quiz bittiğinde bitiş ekranını göster
+     // Doğru hesaplama: Bu oturumdaki 'correctCountInCurrentQuiz' değeri
+     const totalCount = quizPool.length; // Bu oturumda seçilen toplam soru sayısı
+
+
      showEndScreen(correctCountInCurrentQuiz, totalCount);
-     quizArea.dataset.isReviewingWrong = 'false';
+     quizArea.dataset.isReviewingWrong = 'false'; // Quiz bitince bu durumu sıfırla
+
 }
 
 
 // --- Veri Yükleme ---
 
+// Tüm JSON dosyalarını yükle ve tek bir dizide birleştir
 async function loadQuestions() {
     const fetchPromises = Object.keys(fileMappings).map(async shortName => {
         const fileInfo = fileMappings[shortName];
         try {
             const response = await fetch(fileInfo.filePath);
             if (!response.ok) {
+                // 404 hatası gibi durumları daha spesifik yakalayabiliriz
                 if (response.status === 404) {
                     console.error(`Dosya bulunamadı: ${fileInfo.filePath}`);
+                    // Kullanıcıya hangi dosyanın bulunamadığını söyle
                     alert(`Hata: '${fileInfo.filePath}' dosyası bulunamadı. Lütfen dosya adının doğru olduğundan emin olun.`);
                 } else {
                     console.error(`Dosya yüklenirken HTTP hatası: ${fileInfo.filePath}, status: ${response.status}`);
                      alert(`Hata: '${fileInfo.filePath}' yüklenirken bir HTTP hatası oluştu (Status: ${response.status}).`);
                 }
-                return [];
+                return []; // Hata durumunda boş dizi döndür
             }
             const questions = await response.json();
 
+            // JSON formatını doğrula: Dizide mi? Objeler doğru yapıda mı?
              if (!Array.isArray(questions)) {
                  console.error(`JSON format hatası: ${fileInfo.filePath} bir dizi değil.`);
                  alert(`Hata: '${fileInfo.filePath}' dosyasının formatı hatalı (dizi olmalı).`);
                  return [];
              }
+             // Temel alanların olup olmadığını kontrol et
             const validQuestions = questions.filter(q =>
-                 typeof q === 'object' && q !== null &&
-                 typeof q.id === 'string' && q.id.length > 0 &&
-                 typeof q.file === 'string' && q.file.length > 0 &&
-                 typeof q.question === 'string' && q.question.length > 0 &&
-                 typeof q.options === 'object' && q.options !== null && Object.keys(q.options).length >= 5 &&
-                 typeof q.correct_answer === 'string' && q.correct_answer.length === 1 && ['A','B','C','D','E'].includes(q.correct_answer)
+                 typeof q === 'object' && q !== null && // Obje mi?
+                 typeof q.id === 'string' && q.id.length > 0 && // ID var mı?
+                 typeof q.file === 'string' && q.file.length > 0 && // file var mı?
+                 typeof q.question === 'string' && q.question.length > 0 && // question var mı?
+                 typeof q.options === 'object' && q.options !== null && Object.keys(q.options).length >= 5 && // options obje mi ve en az 5 şık var mı?
+                 typeof q.correct_answer === 'string' && q.correct_answer.length === 1 && ['A','B','C','D','E'].includes(q.correct_answer) // correct_answer A,B,C,D,E'den biri mi?
              );
 
              if (validQuestions.length !== questions.length) {
@@ -545,57 +498,57 @@ async function loadQuestions() {
 
 
             console.log(`Yüklendi: ${fileInfo.filePath}, ${validQuestions.length} geçerli soru.`);
-            return validQuestions;
+            // JSON'dan yüklenen soruların 'file' alanı hala uzun isimleri içeriyor, bu şekilde kalsın.
+            return validQuestions; // Sadece geçerli soruları döndür
 
         } catch (error) {
             console.error(`Dosya yüklenirken veya işlenirken hata oluştu: ${error}`);
             alert(`Dosya yüklenirken veya işlenirken bir hata oluştu: ${fileInfo.filePath}. Konsolu kontrol edin.`);
-            return [];
+            return []; // Hata durumunda boş dizi döndür
         }
     });
 
+    // Tüm yükleme işlemleri tamamlanana kadar bekle
     const results = await Promise.all(fetchPromises);
+
+    // Tüm geçerli soruları tek bir dizide birleştir
     allQuestions = results.flat();
 
      console.log('Toplam geçerli yüklü soru:', allQuestions.length);
 
     if (allQuestions.length === 0) {
          alert('Hiç geçerli soru yüklenemedi. Lütfen JSON dosyalarını ve formatlarını kontrol edin.');
-         startQuizBtn.disabled = true;
-         reviewWrongBtn.style.display = 'none';
-         clearWrongBtn.style.display = 'none';
+         startQuizBtn.disabled = true; // Başla düğmesini devre dışı bırak
+         reviewWrongBtn.style.display = 'none'; // Yanlışları çöz düğmesini gizle
+         clearWrongBtn.style.display = 'none'; // Temizle düğmesini gizle
     } else {
-         startQuizBtn.disabled = false;
-         updateWrongAnswersList();
+         startQuizBtn.disabled = false; // Başla düğmesini etkinleştir
+         // updateWrongAnswersList zaten yanlışlar varsa reviewWrongBtn ve clearWrongBtn'ı gösterecek
+         updateWrongAnswersList(); // Sorular yüklendikten sonra yanlış listesini yeniden çiz
     }
 }
 
 
 // --- Olay Dinleyicileri ---
 
-startQuizBtn.addEventListener('click', () => initializeQuiz(false));
+startQuizBtn.addEventListener('click', () => initializeQuiz(false)); // Normal quiz başlangıcı
 nextQuestionBtn.addEventListener('click', nextQuestion);
 backToMenuBtn.addEventListener('click', showMainMenu);
-clearWrongBtn.addEventListener('click', clearWrongAnswers);
-reviewWrongBtn.addEventListener('click', () => initializeQuiz(true));
+clearWrongBtn.addEventListener('click', clearWrongAnswers); // Yanlışları temizle butonuna dinleyici
 
-// Yeni: İstatistik butonu olay dinleyicisi
-showStatsBtn.addEventListener('click', showStatsModal);
-// Yeni: Modal kapatma butonu ve dışarı tıklama olay dinleyicisi
-closeButton.addEventListener('click', hideStatsModal);
-window.addEventListener('click', (event) => {
-    if (event.target === statsModal) {
-        hideStatsModal();
-    }
-});
-
+// Yanlış Yapılanları Tekrar Çöz butonu için olay dinleyicisi
+reviewWrongBtn.addEventListener('click', () => initializeQuiz(true)); // Yanlışları tekrar çözme modu
 
 // --- Uygulamayı Başlat ---
 
+// Sayfa yüklendiğinde:
+// 1. localStorage'dan yanlışları yükle ve listeyi güncelle
+// 2. Ana menüyü göster
+// 3. JSON dosyalarını yüklemeye başla (arka planda)
+
 document.addEventListener('DOMContentLoaded', () => {
-    loadWrongAnswers();
-    loadStats(); // Yeni: İstatistikleri yükle
-    showMainMenu();
-    loadQuestions();
-    quizArea.dataset.isReviewingWrong = 'false';
+    loadWrongAnswers(); // Yanlışları yükle ve listeyi güncelle
+    showMainMenu(); // Ana menüyü göster
+    loadQuestions(); // Sayfa yüklendikten hemen sonra soruları yüklemeye başla
+    quizArea.dataset.isReviewingWrong = 'false'; // Başlangıçta bu durumu ayarla
 });
