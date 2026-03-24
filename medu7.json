@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "medu3_q1",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 1,
+    "question": "Hemoroidal hastalık ile ilgili aşağıdaki seçeneklerden hangisi yanlıştır?",
+    "options": {
+      "A": "Esas tedavi cerrahidir. Medikal tedavi nadiren etkili olur.",
+      "B": "Hemoroidler bir hastalık olmayıp, anal kanalın anatomik elemanlarıdır. Kontinense katkı sağlarlar.",
+      "C": "Hemoroidal hastalık multifaktöriyel bir hastalıktır.",
+      "D": "Hemoroidal hastalıkta kanama parlak kırmızı renkli, genellikle ağrısız, defekasyon esnasında ve takiben oluşur",
+      "E": "Hemoroidal hastalıkta hastaların %20’sinde dominant semptom ağrıdır ve daha ziyade tromboze, ülsere ve gangrene hemoroidlerde görülür"
+    },
+    "correct_answer": "A",
+    "user_answer": "D",
+    "source": null
+  },
+  {
+    "id": "medu3_q2",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 2,
+    "question": "I- Kolon ve rektum kanserlerinde klinik genellikle nonspesifiktir. Karın ağrısı, şişkinlik, gaita kalibrasyonunda değişme, rektal kanama vb semptomlar görülebilir.\nII- Kolon ve rektum rezeke edildikten sonra anastomoz yapılmaksızın distal kısmın kör bir uç şeklinde bırakılması ve proksimal kısmın uç ostomi olarak çıkartılması işlemi Hartmann prosedürü olarak isimlendirilir.\nIII- Neoadjuvan kemoradyoterapi lokal ileri kolon kanserinde uygulanan başlangıç tedavisidir.\nIV- Sağ kolon kanserlerinde anemi diğer kolorektal kanserlere göre daha sık gözükür.\nV-Hartmann prosedüründe kalıcı kolostomi açılır, daha sonra ostomi kapatılma şansı yoktur.\n\nKolorektal kanserler ile ilgili olarak yukarıda verilen ifadelerden doğru olanların hepsinin yer aldığı seçenek hangisidir?",
+    "options": {
+      "A": "I-II-IV",
+      "B": "I-II-III-IV",
+      "C": "I-II-III-IV-V",
+      "D": "I-III-IV-V",
+      "E": "I-III-IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q3",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 3,
+    "question": "I- Adezyon\nII- İnce barsak tümörleri\nIII- İnternal herniasyon\nIV- Volvulus\nV- İnkarsere femoral herni\nYukarıdakilerden ileusa sebep olanların hepsinin bir arada verildiği seçenek hangisidir?",
+    "options": {
+      "A": "I-II-III-IV-V",
+      "B": "I-II-III",
+      "C": "II-III-IV",
+      "D": "II-III-IV-V",
+      "E": "I-II-III-IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q4",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 4,
+    "question": "Karaciğerde en sık görülen benign solid tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hemanjiom",
+      "B": "Adenom",
+      "C": "Fokal nodüler hiperplazi",
+      "D": "Hamartom",
+      "E": "Nöroendokrin tümör"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q5",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 5,
+    "question": "Daha önce histerektomi geçirmiş 45 yasında hasta karın ağrısı ve kusma sikayeti ile acil servise basvuruyor.\nAbdominal grafide mekanik olarak ince bağırsak tıkanıklığı saptanıyor.\nBu hastada tıkanıklığın en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adezyon",
+      "B": "Nüks kitle",
+      "C": "İnce bağırsak kanseri",
+      "D": "İnkarsere inguinal fıtık",
+      "E": "Divertikülit"
+    },
+    "correct_answer": "A",
+    "user_answer": "C",
+    "source": null
+  },
+  {
+    "id": "medu3_q6",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 6,
+    "question": "Aşağıdakilerden hangisi ekstrahepatik kolestaz nedenlerinden değildir?",
+    "options": {
+      "A": "Kronik hepatit",
+      "B": "Koledokolitiazis",
+      "C": "Kolanjio karsinom",
+      "D": "Primer sklerozan kolanjit",
+      "E": "Kronik pankreatit"
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu3_q7",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 7,
+    "question": "I- Tek veya multipl olabilir. Çoğunlukla sağ lobda yerleşir.\nII- Etken en sık entamoeba histolytica'dır.\nIII- Batın içi enfeksiyonlar(apandisit, divertikülit), biliyer enfeksiyonlar, subakut bakteriyel endokardit, kateterler, diş çekimi, Crohn, transplantasyon,kemoterapi gibi immunsupresif alan hastalarda daha sık gözükür.\nIV- Tek, 5 cmden küçük apselerde anatomik karaciğer rezeksiyonu ilk tercih edilen seçenektir.\n\nPiyojenik karaciğer apseleri ile ilgili yukarıdaki ifadelerden doğru olanların hepsinin yer aldığı seçenek aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-III",
+      "B": "I-II-III-IV",
+      "C": "I-III-IV",
+      "D": "I-II-IV",
+      "E": "II-III-IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q8",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 8,
+    "question": "Aşağıdakilerden hangisi Akut apandisitte spesifik olarak görülen fizik muayene bulgularından değildir?",
+    "options": {
+      "A": "Kehr",
+      "B": "Psoas",
+      "C": "Obturator",
+      "D": "Rovsing",
+      "E": "Mc Burney"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q9",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 9,
+    "question": "Aşağıdakilerden hangisi tiroidektomi ameliyatı sonrasında en sık görülen komplikasyondur?",
+    "options": {
+      "A": "Hipokalsemi",
+      "B": "Hematom",
+      "C": "Yara yeri enfeksiyonu",
+      "D": "Özefagus yaralanması",
+      "E": "Ses kısıklığı"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q10",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 10,
+    "question": "Hatanede yatan hastalarda hiperkalseminin en sık nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Malignite",
+      "B": "Paratiroid adenomu",
+      "C": "Paratiroid kanseri",
+      "D": "Akut böbrek yetmezliği",
+      "E": "Sarkoidoz"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q11",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 11,
+    "question": "50 yaşında erkek hasta boyunda kitle nedeniyle değerlendirilmiş, Ultrasonda 2 cm tirads 4 nodül saptanması üzerine yapılan bx sonrasında patoloji sonucu foliküler neoplazi şüphesi olarak raporlanmıştır. Hastanın ses kısıklığı, yutma güçlüğü olmayıp, ultrasonda retrosternal uzanım saptanmamıştır. Hasta ötiroiddir.\nYukarıda tariflenen hastaya yapılması gereken sıradaki işlem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Cerrahi",
+      "B": "MR",
+      "C": "Biyopsi",
+      "D": "BT",
+      "E": "İzlem"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q12",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 12,
+    "question": "Aşağıdakilerden hangisi Akut apandisitte spesifik olarak görülen fizik muayene bulgularından değildir?",
+    "options": {
+      "A": "A. Kehr",
+      "B": "A. Mc Burney",
+      "C": "A. Rovsing",
+      "D": "A. Obturator",
+      "E": "A. Psoas"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q13",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 13,
+    "question": "Hiperkalsemiye bağlı olarak aşağıdakilerden hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "A. Tetani",
+      "B": "A. Hipertansiyon",
+      "C": "A. Kabızlık",
+      "D": "A. Nefrolitiazis",
+      "E": "A. Poliüri"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q14",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 14,
+    "question": "Kabızlık şikayeti ile acil servise başvuran 80 yaşında erkek hastanın fizik muayenesinde asimetrik distansiyon saptanıyor. Ayakta direkt batın grafisinde “kahve çekirdeği – ters u“ görünümü olan hastada öncelikle hangi tanı düşünülür?",
+    "options": {
+      "A": "A. Sigmoid Volvulus",
+      "B": "A. Divertikülit",
+      "C": "A. Akut Kolesistit",
+      "D": "A. Rektal Prolapsus",
+      "E": "A. Rektosel"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q15",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 15,
+    "question": "Organ çıkarma ve koruma ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sıcak iskemi, organın koruyucu solüsyonlara alındıktan sonra alıcıya nakline kadar geçen süreyi ifade eder.",
+      "B": "Organ koruma solüsyonları arasında UW (Wisconsin), Euro-Collins ve Celsior yer alır",
+      "C": "Farklı organların tolere edebildiği soğuk iskemi süreleri farklıdır.",
+      "D": "Soğuk iskemi organın koruyucu solüsyonlara alındıktan sonra alıcıya nakline kadar geçen süreyi ifade eder.",
+      "E": "Hipotermi, metabolizmayı yavaşlatarak hücresel hasarı azaltmayı amaçlar."
+    },
+    "correct_answer": "A",
+    "user_answer": "D",
+    "source": null
+  },
+  {
+    "id": "medu3_q16",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 16,
+    "question": "Laparoskopik ayarlanabilir gastrik band (LAGB) ile ilgili aşağıdaki ifadelerden hangisi doğru değildir?",
+    "options": {
+      "A": "Günümüzde obezite cerrahisinde en sık uygulanan bariatrik cerrahi yöntemdir.",
+      "B": "Proksimal mide etrafına yerleştirilen silikon bant ile bir defada alınan katı gıda miktarını kısıtlamayı hedefleyen restriktif bir yöntemdir.",
+      "C": "Silikon bandın ayarlanabilir olması sayesinde kilo kaybına göre kısıtlama derecesi artırılıp azaltılabilir.",
+      "D": "Diğer bariatrik cerrahi yöntemlere kıyasla erken dönem komplikasyon ve mortalite oranları daha düşüktür.",
+      "E": "Uzun dönem takiplerde kilo kaybının yetersizliği ve komplikasyonlar nedeniyle band çıkarılma oranları yüksektir."
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu3_q17",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 17,
+    "question": "Aşağıdaki hastalardan hangisi obezite cerrahisi için endikasyona sahiptir?",
+    "options": {
+      "A": "VKİ: 31 kg/m², kan şekeri kontrolü kötü olan Tip 2 diyabet hastası",
+      "B": "VKİ: 38 kg/m², obezite ile ilişkili ek hastalığı olmayan, daha önce diyetle kilo verememiş hasta",
+      "C": "VKİ: 34 kg/m², hipertansiyonu olan ancak medikal tedavi ile kontrol altında hasta",
+      "D": "VKİ: 36 kg/m², ek hastalığı olmayan ve psikolojik değerlendirmesi tamamlanmamış hasta",
+      "E": "VKİ: 29 kg/m², Tip 2 diyabeti olan ve insülin kullanan hasta"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q18",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 18,
+    "question": "Kasık fıtıkları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "İndirekt inguinal herniler inguinal kanal içinden geçerek skrotuma kadar inebilir",
+      "B": "Kasık fıtıkları kadınlarda erkeklere göre daha sık görülür",
+      "C": "Karın duvarı fıtıklarının en sık görülen tipi femoral hernidir",
+      "D": "İndirekt inguinal herniler inferior epigastrik damarların medialinden çıkar",
+      "E": "Direkt inguinal herniler pediatrik yaş grubunda daha sıktır"
+    },
+    "correct_answer": "A",
+    "user_answer": "D",
+    "source": null
+  },
+  {
+    "id": "medu3_q19",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 19,
+    "question": "İnguinal ve femoral herniler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İndirekt inguinal herni saptanan erişkin hastalarda cerrahi tedavi genellikle acil olarak yapılır.",
+      "B": "Direkt inguinal herniler genellikle geniş tabanlıdır ve strangülasyon riski düşüktür.",
+      "C": "Femoral hernilerde inkarserasyon ve strangülasyon riski daha yüksektir.",
+      "D": "Femoral herniler kadınlarda erkeklere göre daha sık görülür.",
+      "E": "Direkt inguinal herniler inferior epigastrik damarların medialinden çıkar."
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu3_q20",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 20,
+    "question": "82 yaşında, zayıf ve kaşektik, çok sayıda doğum öyküsü olan kadın hasta; karın ağrısı, bulantı ve gaz–gaita çıkaramama şikâyetleri ile acil servise başvuruyor. Fizik muayenede belirgin bir kasık şişliği saptanmıyor. Hastanın tariflediği uyluğun iç yüzüne yayılan ağrı, uyluk fleksiyonu ile azalırken iç rotasyonla artıyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Obturator herni",
+      "B": "İndirekt inguinal herni",
+      "C": "Direkt inguinal herni",
+      "D": "Spigelian herni",
+      "E": "Femoral herni"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q21",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 21,
+    "question": "Özefagus kanseri tanısı alan bir hastada yapılan evreleme sonucunda; tümörün özefagus duvarını aştığı ve birden fazla bölgesel lenf nodu metastazı bulunduğu (lokal ileri hastalık) saptanıyor. Hastanın ek hastalığı yok, performans durumu iyi ve ASA skoru 1 olarak değerlendiriliyor. Bu hasta için en uygun tedavi yaklaşımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Preoperatif kemoradyoterapi sonrası cerrahi rezeksiyon",
+      "B": "Doğrudan küratif cerrahi rezeksiyon",
+      "C": "Sadece kemoterapi",
+      "D": "Sadece destek (palyatif) tedavi",
+      "E": "Endoskopik lazer ablasyon tedavisi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q22",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 22,
+    "question": "60 yaşında kadın hasta; uzun süredir devam eden göğüs arkasında yanma (pirozis), yemek sonrası regürjitasyon, zaman zaman disfaji ve epigastrik ağrı şikâyetleri ile başvuruyor. Gece öksürük ve aspirasyon hissi tarifliyor. Laboratuvar incelemesinde hafif demir eksikliği anemisi saptanıyor. Hastaya yapılan kontrastlı özefagus grafisinde, gastroözefageal bileşkenin diyaframın üzerine doğru yer değiştirdiği izleniyor. Bu hastanın tanısı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip I (Sliding) hiatal herni",
+      "B": "Tip II (Paraözefageal) hiatal herni",
+      "C": "Tip III (Mikst) hiatal herni",
+      "D": "Tip IV hiatal herni",
+      "E": "Özefagus divertikülü"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q23",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 23,
+    "question": "Korozif (kostik) madde içimi sonrası acil servise başvuran bir hastada, ilk 12 saat içinde yapılan özefagoskopide 1. derece yanık (mukozal hiperemi ve ödem) saptanıyor. Bu hasta için en uygun ilk yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "24–48 saat süreyle klinik gözlem",
+      "B": "Acil eksploratif laparotomi",
+      "C": "Özefagus ve mide rezeksiyonu",
+      "D": "Acil intraluminal özefageal stent yerleştirilmesi",
+      "E": "36. saatte ikinci bakı (second look) laparotomi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q24",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 24,
+    "question": "Emziren 28 yaşında kadın hasta; sağ memede ağrı, kızarıklık, ısı artışı ve ateş şikâyetleri ile başvuruyor. Fizik muayenede meme başında fissür olduğu ve etkilenen memede lokal hassasiyet saptanıyor. Ultrasonografide belirgin koleksiyon izlenmiyor. Puerperal (laktasyon) mastit ve komplikasyonları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Mastit gelişen tüm hastalarda başlangıç tedavisi olarak cerrahi drenaj mutlaka uygulanmalıdır.",
+      "B": "Stafilokok enfeksiyonları genellikle daha lokalize ve derin yerleşimli; streptokok enfeksiyonları ise daha yaygın ve yüzeyel tutulumludur.",
+      "C": "Erken dönemde pompa ile boşaltma ve uygun antibiyotik tedavisi olguların büyük kısmında (%90–95) iyileşme sağlar.",
+      "D": "Mastitlerde en sık etkenler Staphylococcus aureus ve Streptokok türleridir; anaeroblar da etken olabilir.",
+      "E": "Laktasyon mastiti, meme ucu fissürü ve süt stazı sonucu gelişen retrograd bakteriyel enfeksiyonla ilişkilidir."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q25",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 25,
+    "question": "Meme kanseri sınıflandırması ve tipleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tedavi kararını vermede histolojik sınıflandırma daha önemlidir; invaziv lobüler karsinom saptanan hastalarda standart cerrahi yaklaşım modifiye radikal mastektomidir.",
+      "B": "Spesifik olmayan tip invaziv meme kanseri, tüm invaziv meme kanserlerinin yaklaşık %50–70’ini oluşturur ve en sık görülen histolojik tiptir.",
+      "C": "İnvaziv meme kanserlerinde ikinci sıklıkta invaziv lobüler karsinom görülür.",
+      "D": "Meme kanserinde moleküler sınıflandırma (Luminal A, Luminal B, HER2 pozitif, Triple negatif) prognoz ve sistemik tedavi seçiminde önemlidir.",
+      "E": "2 cm boyutunnda triple negatif meme kanseri olan, aksilla negatif ve uzak metastazı olmayan bir hastada neoadjuvan tedavi ile başlanması uygun bir yaklaşımdır."
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu3_q26",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 26,
+    "question": "Duktal karsinoma in situ (DCIS) tanısı alan hastalarda tedavi ve izlem yaklaşımları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "DCIS’te küçük ve sınırlı lezyonlarda yalnızca takip önerilir.",
+      "B": "Mastektomi planlanan DCIS olgularında sentinel lenf nodu biyopsisi düşünülebilir.",
+      "C": "DCIS olgularında uygun hastalarda tamoksifen tedavisi önerilir.",
+      "D": "Lezyonun 4-5 cm’den büyük olması veya birden fazla kadranı tutması mastektomi endikasyonu olabilir.",
+      "E": "DCIS tedavisinde meme koruyucu cerrahiye radyoterapi eklenir."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "-",
+    "source": "ders notu"
+  },
+  {
+    "id": "medu3_q27",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 27,
+    "question": "Aşağıda tariflenen lenf bezlerinden hangisi safra yollarının lenfatik drenajında görev almaz?",
+    "options": {
+      "A": "İliak lenf nodları",
+      "B": "Sistik lenf nodu",
+      "C": "Süperior pankreatoduodenal lenf nodu",
+      "D": "Hiler bölge lenf nodları",
+      "E": "Posterior pankreatoduodenal lenf nodları"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": "Genel"
+  },
+  {
+    "id": "medu3_q28",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 28,
+    "question": "Sistik kanaldan köken alan safra kesesi kanserinin cerrahi tedavisinde aşağıdaki yaklaşımlardan hangisi doğrudur?",
+    "options": {
+      "A": "Genişletilmiş kolesistektomi, koledok rezeksiyonu, hiler lenf nodu diseksiyonu ve hepatikojejunostomi",
+      "B": "Genişletilmiş kolesistektomi",
+      "C": "Genişletilmiş kolesistektomi ve hiler lenf nodu diseksiyonu",
+      "D": "Koledok rezeksiyonu ve hiler lenf nodu diseksiyonu",
+      "E": "Hiçbiri"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": "Genel"
+  },
+  {
+    "id": "medu3_q29",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 29,
+    "question": "Radyoloji raporunda sağ hepatektomi yapılmış olduğu ifade edilen hastada aşağıdaki yapılardan varlığı mümkün değildir?",
+    "options": {
+      "A": "Safra kesesi",
+      "B": "Orta hepatik ven",
+      "C": "Sol hepatik ven",
+      "D": "Koledok kanalı",
+      "E": "Sol portal ven"
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": "Genel"
+  },
+  {
+    "id": "medu3_q30",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 30,
+    "question": "Dijital rektal muayene ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "GİS kanaması düşünülen hastada rektal tuşe fizik muayenenin önemli bir parçası değildir",
+      "B": "Anal kanalda ele gelen kitle olup olmadığı değerlendirilmelidir.",
+      "C": "Fekal inkontinans durumlarında anal sfinkterlerdeki kas tonusu değerlendirilmelidir.",
+      "D": "GİS kanamadan şüphelenilen hastalarda hematokezya ve ya melena olup olmadığı değerlendirilebilir.",
+      "E": "İşlem öncesi hastaya muyenenin nasıl yapılacağı ve neden yapılacağı konusunda bilgi verilmelidir."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q31",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 31,
+    "question": "Aşağıdaki ifadelerden yanlış olanı işaretleyiniz",
+    "options": {
+      "A": "İntrauterin dönemde emriyogenezis esnasında pankreasın dorsal ve ventral kısmının birleşmemesine annuler pankreas denir",
+      "B": "Pankreas batın içerisinde retroperitoneal yerleşimli bir organımızdır.",
+      "C": "Pankreas dokusunun normal anatomik olan bulunması gereken yerin dışında başka bir organ içinde bulunmasına ektopik pankreas denir.",
+      "D": "Ektopik pankreas en sık mide, duodenum ve ileumda bulunur",
+      "E": "Akut pankreatitin en sık nedeni safra yolu taşları ve alkol kullanımıdır"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q32",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 32,
+    "question": "Aşağıdaki ifadelerden doğru olan ifadeyi işaretleyiniz",
+    "options": {
+      "A": "Fizik muayeneye başlamadan önce hastanın anamnezini almak gerekir",
+      "B": "Fizik muayeneye başlamadan önce bize yardımcı olması için tüm kan tahlillerini istememiz gerekir",
+      "C": "Fizik muayeneye başlamadan önce bize yardımcı olması için Bilgisayarlı Tomografi çektirmek gerekir",
+      "D": "Fizik muayeneye başlarkan önce palpasyon ile başlanır, sonra oskültasyon ve en son inspeksiyon yapılır",
+      "E": "Fizik muayeneye başlamadan önce bize yardımcı olması için PET-BT çektirmek gerekir"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Fizik muayeneye başlamadan önce hastanın anamnezini almak gerekir",
+    "source": "genel"
+  },
+  {
+    "id": "medu3_q33",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 33,
+    "question": "Aşağıdaki anatomik pelvis ölçümlerinden hangisi pevisin en dar çapı olup, kemik pelvisin doğum için uygunluğunu gösteren en önemli antropometrik ölçümdür?",
+    "options": {
+      "A": "Conjugata obstetrica",
+      "B": "Conjugata diagonalis",
+      "C": "Conjugata anatomica",
+      "D": "Transvers Pelvik çap",
+      "E": "İnterspinöz çap"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Conjugata obstetrica pelvisin en dar yeri olup bu çap fetal başın geçişi için en değerli parametredir.",
+    "source": null
+  },
+  {
+    "id": "medu3_q34",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 34,
+    "question": "Cell free DNA (fetal DNA) ile ilgili yukarıdaki ifadelerden hangisi veya hangileri yanlıştır?\nI. Cell free DNA genom düzeyinde fetal tarama testidir.\nII. Cell free DNA testi Trizomi 21 sonucu %100 doğruluktadır.\nIII. Cell free DNA ile fetüsün cinsiyet tayini yapılabilir.",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız I",
+      "C": "Yalnız III",
+      "D": "I, II ve III",
+      "E": "II ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Cell free DNA bir tarama testidir. Cinsiyet tayini yapabilir. Anacak tüm tarama testlerine eolduğu gibi yüzde yüz doğrulukta tahmin yürütemez.",
+    "source": null
+  },
+  {
+    "id": "medu3_q35",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 35,
+    "question": "Birinci basamak hekimliğinde gebeliğin ilk izleminde aşağıdakilerden hangisi yapılmaz?",
+    "options": {
+      "A": "Fetüsün ağırlığı ölçülür",
+      "B": "Kilo ölçümü",
+      "C": "Tansiyon ölçümü",
+      "D": "Kan grubu tayini",
+      "E": "Gebelik sayısı ve gebelik haftası tayini"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Fetüsün ağırlık ölçümü ilk trimesterda yapılamaz. Ölçüm için en az ikinci trimester dönemi yani gebeliğin ikinci takibinde yapılabilir.",
+    "source": null
+  },
+  {
+    "id": "medu3_q36",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 36,
+    "question": "Aşağıdakilerden hangisi tokoliz amaçlı kullanılamaz?",
+    "options": {
+      "A": "Karbetosin",
+      "B": "Nifedipin",
+      "C": "Magnezyum",
+      "D": "İndometazin",
+      "E": "Ritodrin"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Karbetosin postpartum kanama tedavisinde uzun etkili oksitosin türevidir. Tokolizde ve doğum indüksiyonunda kullanılmaz.",
+    "source": "Duff, P., & Lockwood, C. J. (2021). Preterm prelabor rupture of membranes: clinical manifestations and diagnosis. UpToDate Inc, 1-24."
+  },
+  {
+    "id": "medu3_q37",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 37,
+    "question": "Aşağıdakilerden hangisinin varlığında kesin acil doğum planlanır?",
+    "options": {
+      "A": "Umblikal arter doppler ölçümünde diyastolik ters akım ve serebroplasental oran (CPR) < 1",
+      "B": "Umblikal arter sistol/ diyastol oranı %95 persentil üzerinde",
+      "C": "Umblikal arter diyastolik akım kaybı",
+      "D": "Uterin arterde çentik görünümü",
+      "E": "Duktus Venosus dopplerinde normal görünüm"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Doppler bulgularının en ileri seviye bozulması ve gebelik haftasının 34 hafta üzerinde olması hospitalizayon bekleme tedavisinden uzaklaşılıp müdahale etmeye gerek duyulur. umblikal arter ters akım ve CRP oranının düşmesi fetal beynin etkilendiğinin göstergesidir.",
+    "source": null
+  },
+  {
+    "id": "medu3_q38",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 38,
+    "question": "Otuz yaşında... 37 hafta 3 gün gebeliği olan kadın mide üzerinde ağrı ile başvuruyor... yapılan tetkiklerde idrar stik +3 protein olarak saptanıyor... Yukarıdaki olguda ilk aşamada yapılması gereken nedir?",
+    "options": {
+      "A": "Magnezyum sülfat verilmesi ve doğuma alınması gerekir",
+      "B": "İndometazinle tokoliz uygulanır",
+      "C": "Nifedipin ile tokoliz uygulanır",
+      "D": "Hasta 1 hafta sonra kontrole çağrılır",
+      "E": "Tansiyonu düşürülür ve 3 gün sonra kontrol önerilir."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "olguda şiddetli özellik gösteren preekalmpsi anlatılıyor. tansiyon yüksek, proteinüri var ve çok güçlü epigastrik ağrısı var. bu üç bulgu tanı için yeterli. Maidında şiddetli özellikle gösteren preekalmpsi tedavisi doğumdur.",
+    "source": "August, P., & Sibai, B. M. (2017). Preeclampsia: Clinical features and diagnosis. Post TW, UpToDate. Waltham, MA: UpToDate."
+  },
+  {
+    "id": "medu3_q39",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 39,
+    "question": "Gebelikte genom çapında yapılan fetal taramalar ile ilgili yukarıdaki ifadelerden hangisi veya hangileri yanlıştır?\nI. Birinci trimester kombine tarama testinde ultrasonografinin yanında maternal serum HCG ve PAPP-A ölçümleri yapılır.\nII. Ense saydamlığı (NT) ile tek başına tarama testi yapılabilir.\nIII. İkinci trimester dörtlü tarama testinde, maternal serum beta HCG, AFP, PAPP-A ve İnhibin A ölçümü yapılır.",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yanlız I",
+      "C": "Yanlız II",
+      "D": "I ve III",
+      "E": "I ve II"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "CEVAP: dörtlü tarama testinde E3 bakılır, PAPP-A sadece birinci trimester kombine tarama testinde bakılır. O yüzden bu önerme yanlıştır. SORUNUN CEVABI: yanlız 3 olacaktır.",
+    "source": null
+  },
+  {
+    "id": "medu3_q40",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 40,
+    "question": "I. HPV tip 6\nII. HPV tip 11\nIII. HPV tip 16\nIV. HPV tip 18\nYukarıdaki insan papillomavirus (HPV) tiplerinden hangileri vulvada siğil oluşturur ve malign formasyon oluşturmaz?",
+    "options": {
+      "A": "A) I ve II",
+      "B": "B) I ve IV",
+      "C": "C) II ve III",
+      "D": "D) II ve IV",
+      "E": "E) III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "hpv 6 ve hpv 11 virusları cildi tutar... cildi tutan hpv türleri siğillere yol açar ve malign formasyon göstermez.",
+    "source": "Wright, J. D., Goff, B., & Chakrabarti, A. (2022). Cervical intraepithelial neoplasia: Management. UpToDate"
+  },
+  {
+    "id": "medu3_q41",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 41,
+    "question": "34 haftalık, ağır özellikli preeklampsi tanısı alan bir gebede nöbet profilaksisi amacıyla başlanan Magnezyum Sülfat (MgSO4) tedavisi sırasında, derin tendon reflekslerinin (DTR) kaybolduğu gözlenmiştir. Bu durumda ilk yapılması gereken müdahale hangisidir?",
+    "options": {
+      "A": "İnfüzyonu durdurmak ve Kalsiyum Glukonat uygulamak",
+      "B": "Serum magnezyum düzeyini ölçüp sonucu beklemek",
+      "C": "Diyare gelişimi yönünden hastayı izlemek",
+      "D": "Magnezyumu yarı dozda vermek",
+      "E": "Sezaryen operasyonun almak"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q42",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 42,
+    "question": "Preeklampsi gelişim riski yüksek olan (örneğin önceki gebeliğinde preeklampsi öyküsü olan) bir gebede, proflaktik amaçlı düşük doz aspirin tedavisine ne zaman başlanması önerilir?",
+    "options": {
+      "A": "12 ile 16. gebelik haftaları arasında",
+      "B": "24. hafta detaylı ultrasonu sonrasında",
+      "C": "Doğuma bir ay kala",
+      "D": "Sadece tansiyon yükselmeye başladığında",
+      "E": "Gebelik planlandığı andan itibaren"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu3_q43",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 43,
+    "question": "Gebeğilin ilk trimesterinde kan üre nitrogn düzeyi yüzde kaç oranında düşer?",
+    "options": {
+      "A": "%25",
+      "B": "%10",
+      "C": "%15",
+      "D": "%40",
+      "E": "%55"
+    },
+    "correct_answer": "A",
+    "user_answer": "C",
+    "source": null
+  },
+  {
+    "id": "medu3_q44",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 44,
+    "question": "Gebelikte görülen memelerde hassasiyet / gerginlik /büyüme gebeliğin kaçıncı haftasında başlar.",
+    "options": {
+      "A": "İlk 14 haftada",
+      "B": "15-20. haftada",
+      "C": "21-25 haftada",
+      "D": "26-30 haftada",
+      "E": "37. gebelik haftasından sonra"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu3_q45",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 45,
+    "question": "Postpartum 2-4. aylarda belirgin olan saç dökülmesi doğum sonrası hangi zaman aralığında gebelik öncesi durumuna döner?",
+    "options": {
+      "A": "6-12 ay",
+      "B": "12-18 ay",
+      "C": "18-24 ay",
+      "D": "24-30 ay",
+      "E": "4-6 ay"
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu3_q46",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 46,
+    "question": "Amniotik sıvı embolisinde en sık ölüm nedeni hangisinde verilmiştir?",
+    "options": {
+      "A": "Kardiovasküler kollaps",
+      "B": "Afibrinojenemi",
+      "C": "Masif kanama",
+      "D": "Akut böbrek yetmezliği",
+      "E": "Serebral infark"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu3_q47",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 47,
+    "question": "Uterine korpusun cerrahi olarak çıkarılması işlemine ne ad verilir?",
+    "options": {
+      "A": "Subtotal histerektomi",
+      "B": "Total histerektomi",
+      "C": "Radikal histerektomi",
+      "D": "Myometrial redüksiyon",
+      "E": "Strassman ameliyatı"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q48",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 48,
+    "question": "Histereskopi işlemi aşağıdakilerden hangisi için kullanılmaz?",
+    "options": {
+      "A": "Fimbrioplasti",
+      "B": "Polipektomi",
+      "C": "Septum rezeksiyonu",
+      "D": "Myomektomi",
+      "E": "Endometrial ablasyon"
+    },
+    "correct_answer": "A",
+    "user_answer": "D",
+    "source": null
+  },
+  {
+    "id": "medu3_q49",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 49,
+    "question": "Postmenapozal kanamada alınan biyopside en çok hangi sonuçla karşılaşılır?",
+    "options": {
+      "A": "Atrofi",
+      "B": "Serviks kanseri",
+      "C": "Endometrial kanser",
+      "D": "Hormonal etki",
+      "E": "Postradyasyon tedavi"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q50",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 50,
+    "question": "Oligomenore nedir?",
+    "options": {
+      "A": "35 günden fazla aralıklarla adet görme.",
+      "B": "24 günden az aralıklarla adet görme.",
+      "C": "kanamanın 80 mlden fazla olması",
+      "D": "kanamanın 30 mlden düşük olması",
+      "E": "kanamanın uzun süre ve fazla olması"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q51",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 51,
+    "question": "En sık görülen puerperal ateş nedeni nedir?",
+    "options": {
+      "A": "Angojman",
+      "B": "Tromboflebit",
+      "C": "Atelektazi",
+      "D": "Grip",
+      "E": "İdrar yolu enfeksiyonu"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q52",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 52,
+    "question": "FDA sınıflandırmasında B kategorisindeki ilaçların tanımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hayvanda teratojen değil, insanda bilinmiyor",
+      "B": "İnsan ve hayvanda güvenli",
+      "C": "İnsan ve hayvanlarda etkisi bilinmiyor",
+      "D": "Gebelikte kesin olarak kullanılmaz",
+      "E": "İnsan ve hayvanda teratojen"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "B kategorisi ilaçlar hayvanlarde teratojen değil insanlarda güvenlidir",
+    "source": "Drugs in Pregnancy, Radhwan Nidal Al-Zidan, 2021"
+  },
+  {
+    "id": "medu3_q53",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 53,
+    "question": "Aşağıdakilerden hangisi veya hangileri operatif doğum sonrası fetuste gelişebilecek komplikasyonlardandır?\nI: Sefal hematom\nII: Klavikula kırığı\nIII: Skalp laserasyonu\nIV: Yenidoğan sarılığı",
+    "options": {
+      "A": "I-II-III-IV",
+      "B": "I-II",
+      "C": "I-II-III",
+      "D": "I-IV",
+      "E": "I-III-IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "şıkların tamamı doğrudur",
+    "source": "Williams Obstetrics 26 th edition, 2022"
+  },
+  {
+    "id": "medu3_q54",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 54,
+    "question": "30 yaşında gravida: 6 para: 5... NST de fetal kalp atım hızı 180/dk... Bu hastada tanınız nedir? Tedavide yaklaşım ne olmalıdır?",
+    "options": {
+      "A": "Tanı: Ablatio plasenta Tedavi Yaklaşımı: Çift damar yolu açarım... acil sezeryan ile doğum planlarım.",
+      "B": "Tanı: Plasenta previa... acil sezeryan ile doğum planlarım.",
+      "C": "Tanı: Vasa previa... acil sezeryan ile doğum planlarım.",
+      "D": "Tanı: Uterin Rüptür... acil sezeryan ile doğum planlarım.",
+      "E": "Tanı: Servikal yetersizlik... vajinal doğum planlarım."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Plaentanın ayrılmış olması nedeni ile tanı ablatio plasentadır.",
+    "source": "John Hopkins Manual of Gynecology and Obstetrics"
+  },
+  {
+    "id": "medu3_q55",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 55,
+    "question": "Aşağıdakilerden hangisi omuz takılması için risk faktörü değildir?",
+    "options": {
+      "A": "Preeklampsi",
+      "B": "Fetal makrozomi",
+      "C": "Maternal diyabet",
+      "D": "Postterm gebelik",
+      "E": "Multiparite"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Preeklampsi omuz takılması nedeni değildir.",
+    "source": "Williams Obstetrics 26 th edition, 2022 by McGraw Hill. page 438"
+  },
+  {
+    "id": "medu3_q56",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 56,
+    "question": "Estrojen+progesteron kombine kontraseptifler ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Etki mekanizmalarından biri ovulasyon inhibisyonudur.",
+      "B": "Yalnızca intramusküler kullanımları mevcuttur.",
+      "C": "İçerdikleri estrojen miktarı 50 mcg üzerinde olmalıdır",
+      "D": "Sadece trifazik formları vardır.",
+      "E": "Hiçbir yan etkileri yoktur."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Kombine kontraseptifler ovulasyonu inhibe ederek etki ederler.",
+    "source": "Berek & Novak Gynecology, 16, edition. 2020"
+  },
+  {
+    "id": "medu3_q57",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 57,
+    "question": "Estrojen+progesteron kombine oral kontraseptifler ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Etki mekanizmalarından biri ovulasyon inhibisyonudur.",
+      "B": "Yalnızca intramusküler kullanımları mevcuttur.",
+      "C": "İçerdikleri estrojen miktarı 50 mcg üzerinde olmalıdır",
+      "D": "Sadece trifazik formları vardır.",
+      "E": "Hçbir yan etkileri yoktur"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "Oral kontraseptifler ovulasyon inhibisyonu yoluyla etki ederler.",
+    "source": "Kadın doğum ders notları, Berek & Novak Gynecology, 16, ed."
+  },
+  {
+    "id": "medu3_q58",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 58,
+    "question": "Aktif vajinal kanama nedeni ile acile bavuran 30 haftalık gebeliği olan hastanın plasenta previa tanısı takipli olduğu öğrenilmiş olup bu hastanın ilk müdahalesinde aşağıdakilerden hangisi yapılmamalıdır?",
+    "options": {
+      "A": "Vajinal tuşe ile servikal açıklık değerlendirilir.",
+      "B": "Kan hazırlatılır",
+      "C": "Damar yolu açılır.",
+      "D": "İdrar sondası takılır.",
+      "E": "Fetal kardiak aktivite takibi yapılır."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "plasenta previa tanılı gebelerde vajinal tuşe yapılmaz",
+    "source": "Williams Obstetrics 26 th edition, 2022"
+  },
+  {
+    "id": "medu3_q59",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 59,
+    "question": "Aşağıdakilerden hangisi bakteriyel vajinozis risk faktörlerinden değildir?",
+    "options": {
+      "A": "Beyaz ırk",
+      "B": "Vajinanın antiseptik ile yıkanması",
+      "C": "Sigara",
+      "D": "Çok sayıda cinsel partner",
+      "E": "Erken yaşta cinsel ilişki"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q60",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 60,
+    "question": "Pelvik taban disfonksiyonu ön tanılı hasta değerlendirilmesinde aşağıdaki tanı testlerinden hangisi birinci basamak testler arasında değildir?",
+    "options": {
+      "A": "Ürodinamik İncelemeler",
+      "B": "İdrar tahlili",
+      "C": "İdrar kültürü",
+      "D": "Fizik muayene",
+      "E": "Nörolojik muayene"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q61",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 61,
+    "question": "Aşırı aktif mesanenin olmazsa olmaz komponentleri hangi şıkta doğru verilmiştir?\nI. Sık idrara çıkma\nII. Sıkışma hissi\nIII. Stres üriner inkontinans\nIV. Urge üriner inkontinans",
+    "options": {
+      "A": "I,II",
+      "B": "I,II,III,IV",
+      "C": "I,II,III",
+      "D": "I,II,IV",
+      "E": "III,IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q62",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 62,
+    "question": "1983 yılında Amsel ve arkadaşlarının bakteriyel vajinozis için tanımladığı 3 kriter hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "I, II, IV",
+      "B": "I, II, III",
+      "C": "I, III",
+      "D": "I, IV",
+      "E": "II, III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q63",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 63,
+    "question": "Reprodüktif dönemdeki bir kadının vajinal ph'sı kaçtır?",
+    "options": {
+      "A": "3,5 - 4,5",
+      "B": "5 - 6",
+      "C": "6 - 7",
+      "D": "7 - 8",
+      "E": "9 - 10"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q64",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 64,
+    "question": "Aşırı aktif mesanenin birinci basamak tedavisi arasında aşağıdakilerden hangisi yer almaz?",
+    "options": {
+      "A": "İntravezikal botulinum toksin enjeksiyonu",
+      "B": "Yaşam tarzı değişiklikleri",
+      "C": "Mesane eğitimi",
+      "D": "Biofeedback",
+      "E": "Fonksiyonel elektriksel uyarı"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q65",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 65,
+    "question": "Üriner sistemin nonspesifik enfeksiyonları ile ilgili aşağıdakilerden hangisi/hangileri doğrudur?\nI. 3 yaşında ateşli ÜSE geçiren... bir çocuğa 10 günlük antibiyotik tedavisi... yeterlidir.\nII. Gebelerde üriner sistem enfeksiyon tedavisi 7 güne tamamlanmalıdır.\nIII. EAU kılavuzuna göre sistit atağı geçiren... 3 günlük trimetoprim sulfmetaksazol... yeterlidir.",
+    "options": {
+      "A": "II ve III",
+      "B": "I, II ve III",
+      "C": "II, III ve IV",
+      "D": "I, II ve IV",
+      "E": "I ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q66",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 66,
+    "question": "Obstüktif üropatiyle ilgili aşağıdaki ifadelerden hangisi/ hangileri doğru değildir?\nI. Akut üriner retansiyonlar genellikle asemptomatiktir.\nII. Üst üriner sistem obstrüksiyonunda kolik ağrı olabilir.\nIII. Hastanın kullandığı ilaçlar da potansiyel bir retansiyon sebebi olarak akılda tutulmalıdır.\nIV. Suprapubik aspirasyon yapılırken sterilite şartlarına özen gösterilmesi zaruri değildir.",
+    "options": {
+      "A": "I ve IV",
+      "B": "I, II ve III",
+      "C": "II ve III",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q67",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 67,
+    "question": "BPH tedavisi ile ilgili aşağıdaki önermelerden hangisi/hangileri doğrudur?\nI. Akut üriner retansiyon ve cerrahi riskini azaltan medikal ajan PDE5 inhibitörü olan ajanlardır.\nII. Alfa blokörler etkileri hızlı görüldüğü için yaygın kullanılan ajanlardandır.\nIII. Tekrarlayan üriner enfeksiyon kesin cerrahi endikasyonlardandır.",
+    "options": {
+      "A": "II, III ve IV",
+      "B": "I ve II",
+      "C": "I, II ve IV",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q68",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 68,
+    "question": "Üriner sistemin nonspesifik enfeksiyonları ile ilgili aşağıdaki ifadelerden hangisi/hangileri doğrudur?\nI. Sistit tedavisinden sonra iki hafta içinde aynı bakteri ile gelişen enfeksiyona reenfeksiyon denir.\nII. 50 yaşından sonra üriner sistem enfeksiyonları BPH nedeniyle erkeklerde... daha sık görülür.\nIII. Patojenler en sık asendan yolla enfeksiyona sebebiyet verirler.",
+    "options": {
+      "A": "III ve V",
+      "B": "I, III ve V",
+      "C": "II, III ve IV",
+      "D": "II, IV ve V",
+      "E": "I, II, III ve V"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q69",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 69,
+    "question": "Üretritler için aşağıdaki önermelerden hangisi/hangileri doğrudur?\nI. Gonokoksik üretritlerde ilk seçenek antibiyotik kinolon grubu olmalıdır.\nII. Gonokoksik üretritli bir hastaya tedavi verirken mutlaka non-gonokoksik üretritleri de kapsamalıdır.\nIII. Antibiyotik tedavisi başlamadan önce mutlaka tanı kültür ile doğrulanmalıdır.",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q70",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 70,
+    "question": "CYBE ile ilgili etken hastalık eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Şankroid - HSV Tip 2",
+      "B": "Condyloma Accuminata - HPV",
+      "C": "Lenfogronuloma Venorum - Clamydia Trachomatis",
+      "D": "Sifiliz - Treponema Pallidum",
+      "E": "Üretrit - Neisseria Gonorrhoeae"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q71",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 71,
+    "question": "BPH ile ilgili aşağıdaki önermelerden hangisi/hangileri doğrudur?\nI. Prostat bezinin fizik incelemesi yalnızca rektal yoldan yapılabilir.\nII. Prostat bezinin hacmi ne kadar artarsa... obstrüktif semptomlar o derecede fazla olur.\nIII. Prostat bezi hiperplazisi için çoğunlukla ortamda androjenlerin bulunması gerekir.",
+    "options": {
+      "A": "I, III ve IV",
+      "B": "I ve III",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q72",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 72,
+    "question": "Genitoüriner sistem travmaları ile ilgili aşağıdaki ifadelerden hangisi/hangileri doğrudur?\nI. Grade IV böbrek yaralanmalarında laserasyon toplayıcı sisteme uzanır.\nII. İçinde hematom ile birlikte segmental renal arter veya ven hasarı Grade IV olarak sınıflandırılır.\nIII. Üreter travmalarının çoğu iyatrojenik şekilde oluşur.",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbell - Walsh Üroloji Cilt 1-2-3-4"
+  },
+  {
+    "id": "medu3_q73",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 73,
+    "question": "UÇEP 2020'de Obstrüktif Üropati ile ilişkilendirilmeyen semptom hangisi/hangileridir?\nI. Pelvik kitle\nII. Pollaküri\nIII. Dizüri\nIV. Kolik ağrı",
+    "options": {
+      "A": "II ve III",
+      "B": "I, II ve III",
+      "C": "I ve IV",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "UÇEP 2020"
+  },
+  {
+    "id": "medu3_q74",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 74,
+    "question": "Genitoüriner sistem travmaları ile ilgili aşağıdaki ifadelerden hangisi/hangileri doğrudur?\nI. Grade I böbrek yaralanması subkapsüler hematomu tanımlar.\nII. Mesane rüptüründe en iyi tanı yöntemi sistografidir.\nIII. Penil fraktür vakalarının çoğu acil servise idrar yapamama şikayeti ile başvurur.",
+    "options": {
+      "A": "I ve II",
+      "B": "I, II ve III",
+      "C": "I ve IV",
+      "D": "II ve III",
+      "E": "I, II ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q75",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 75,
+    "question": "Alt üriner sistem disfonksiyonları ile ilgili yanlış ifadelerin bulunduğu seçenek hangisidir?\nI) İdrarın depolanma fazında, α-1 adrenerjik uyarım mesane çıkımının kapatılmasını sağlar.\nII) İdrarın boşaltım fazında, β-2 ve β-3 uyarımın kesilmesi... gevşemeye katkıda bulunur.",
+    "options": {
+      "A": "II – IV",
+      "B": "I- II-III",
+      "C": "II – III – IV",
+      "D": "IV – V",
+      "E": "II – III"
+    },
+    "correct_answer": "A",
+    "user_answer": "D",
+    "source": null
+  },
+  {
+    "id": "medu3_q76",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 76,
+    "question": "Alt üriner sistem disfonksiyonları ile ilgili doğru ifadelerin bulunduğu seçenek hangisidir?\nI) Alt üriner sistem disfonksiyonlarının 1. basamak değerlendirilmesinde ürodinami yer alır.\nII) Kadınlarda demans ve kognitif bozukluklar... stres tip üriner inkontinans risk faktörleri arasındadır.",
+    "options": {
+      "A": "II - IV",
+      "B": "I – V",
+      "C": "III – IV – V",
+      "D": "I – III – V",
+      "E": "I - II"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q77",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 77,
+    "question": "Üretral kateterizasyonla ilgili ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Double (çift) J stent konulması sık kullanılan üretral kateterizasyon yöntemlerinden birisidir.",
+      "B": "Kullanılan kateterlerin boyutları French (Fr) skalası ile belirtilir.",
+      "C": "Kateterizasyon sırasında direnç varsa zorlanmamalı ve obstrüksiyon seviyesi belirlenmelidir.",
+      "D": "Üretra darlığı, zorlu bir üretral kateterizasyon işlemi sonrası gelişebilecek bir komplikasyondur.",
+      "E": "Üretral kateterizasyon yapılamayan hastalarda, perkutan sistostomi konulması alternatif bir üriner diversiyon metodudur."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q78",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 78,
+    "question": "Üriner sistem taş hastalığında aşağıdakilerden hangisi cerrahi endikasyon oluşturmaz?",
+    "options": {
+      "A": "Üriner sistem taşına ek olarak unilateral veya bilateral çift toplayıcı sistem mevcut olması",
+      "B": "Üriner sistem taşlarına bağlı inatçı kolik ağrı şikayeti",
+      "C": "Üriner sistem taşına bağlı piyonefroz ya da ürosepsis riski olması durumu",
+      "D": "Üriner sistem taşının yaptığı obstrüksiyona bağlı gelişecek akut böbrek yetmezliği riski durumu",
+      "E": "Çapı ≥ 7 mm olan üreter taşı olması durumu"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q79",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 79,
+    "question": "Üriner sistem taş hastalığı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İntravenöz piyelografinin kolik ağrı sırasında tanı değeri yüksektir.",
+      "B": "Gut hastalığı, malabsorbsiyon, distal renal tubuler asidoz taş oluşumuna yatkınlık yaratan hastalıklardandır.",
+      "C": "Süpersatürasyon, nükleasyon ve agregasyon taş oluşumu teorileri arasında yer almaktadır.",
+      "D": "Magnezyum, sitrat, sülfatlar, pirofosfat taş oluşumu inhibitörleri arasında yer almaktadır.",
+      "E": "Kalıtım, cinsiyet ve obezite taş oluşumunda etkili epidemiyolojik faktörlerdir."
+    },
+    "correct_answer": "A",
+    "user_answer": "B",
+    "source": null
+  },
+  {
+    "id": "medu3_q80",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 80,
+    "question": "Doğru ifadelerin bulunduğu seçenek hangisidir?\nı) Unilateral renal agenezi 1/5.000 - 10.000 doğumda görülür...\nII) En sık görülen ektopik böbrek türü at nalı böbrektir.\nIII) Böbrek füzyon anomalilerine iskelet sistemi anomalileri eşlik edebilir.",
+    "options": {
+      "A": "I - III",
+      "B": "II – III - IV",
+      "C": "I - V",
+      "D": "III - IV",
+      "E": "IV -V"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q81",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 81,
+    "question": "At nalı böbrek ile ilgili ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tanı konulduğunda mutlaka cerrahi müdahale yapılması gerekir.",
+      "B": "Böbrek füzyon anomalileri arasında en sık görülenidir.",
+      "C": "Üreteropelvik darlık ve vezikoüretral reflü gibi patolojiler eşlik edebilir.",
+      "D": "Obstrüksiyona sebep olarak taş oluşumu, hidronefroz ve hematüri görülebilir.",
+      "E": "At nalı böbrekte birleşme yerine istmus adı verilir."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q82",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 82,
+    "question": "Hangisi fleksible sistoskop aletinin avantajlarından birisi değildir?",
+    "options": {
+      "A": "İrrigasyon kanalının daha geniş olması nedeniyle daha iyi görüş sağlar.",
+      "B": "Sistoskopun distal ucu 180°’ye kadar dönebilir.",
+      "C": "Daha az invaziv bir işlem olup hasta konforu daha iyidir.",
+      "D": "Yüksek mesane boynunda aletin mesaneye daha kolay geçmesini sağlar.",
+      "E": "Mesanenin her alanının iyi değerlendirilebilmesini sağlar."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q83",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 83,
+    "question": "Erkekte fertilite potansiyelini kötü yönde etkileyebilen durumları en iyi tanımlayan seçeneği bulunuz .\nI. sigara\nII. obezite\nIII. egzersiz",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I",
+      "D": "II",
+      "E": "III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbell's Urology"
+  },
+  {
+    "id": "medu3_q84",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 84,
+    "question": "Erektil disfonksiyon varlığında akla gelmesi gereken sorunlar listesini en iyi tanımlayan seçeneği bulunuz .\nI. Kardiyolojik sorunlar\nII. Endokrinolojik sorunlar\nIII. Nörolojik sorunlar",
+    "options": {
+      "A": "I ve II ve III",
+      "B": "yalnızca I",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "UÇEP"
+  },
+  {
+    "id": "medu3_q85",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 85,
+    "question": "İntraskrotal ekstratestiküler kitle tanımına uyanları en iyi tanımlayan seçeneği bulunuz .\nI. inguinal herni\nII. varikosel\nIII. hidrosel\nIV. spermatik kord kisti",
+    "options": {
+      "A": "I ve II ve III ve IV",
+      "B": "yalnızca I",
+      "C": "yalnızca III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "UÇEP"
+  },
+  {
+    "id": "medu3_q86",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 86,
+    "question": "Pelvik ağrı ile ilişkilendirilmiş \"çekirdek hastalık\" veya \"klinik problem\" başlıkları içinde \"acil durumu tanımlayarak ilk tedavisini yapabilmeli, gerektiğinde uzmana yönlendirebilmeli\" düzeyine de sahip olan seçeneği bulunuz (UÇEP-2020 kapsamında) !",
+    "options": {
+      "A": "üriner sistem taş hastalığı",
+      "B": "üriner sistem enfeksiyonları",
+      "C": "premenstrüel sendrom",
+      "D": "pelvik enflamatuvar hastalık",
+      "E": "pelvik ağrı sendromu"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q87",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 87,
+    "question": "Testis tümörleri ile ilgili olarak aşağıdakilerden hangisi/hangileri doğrudur?\nI. AFP tüm hastaların %50-70’inde yükselir.\nII. LDH koryokarsinomda yükselmez.\nIII. Serum yarılanma ömrü AFP= 3-4 gün, hCG = 2-3 gündür\nIV. hCG seminomda yükselebilir.",
+    "options": {
+      "A": "I ve IV",
+      "B": "I, II ve IV",
+      "C": "I, III ve IV",
+      "D": "I ve III",
+      "E": "II, III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": "Campbell's Urology"
+  },
+  {
+    "id": "medu3_q88",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 88,
+    "question": "Prostat kanseri ile ilgili aşağıdakilerden hangisi/hangileri doğrudur?\nI. Prostat kanseri tanısı için en önemli yöntemler parmakla rektal muayene ve serum PSA düzeyi ölçümüdür\nII. Prostat kanserlerinin en sık semptomu ağrısız hematüridir.\nIII. Prostat kanserleri için en önemli risk faktörü yaş ve ırktır.",
+    "options": {
+      "A": "I ve III",
+      "B": "Yalnız I",
+      "C": "I, II ve III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q89",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 89,
+    "question": "Aşağıdakilerden hangisi/hangileri böbrek tümörleri için doğrudur?\nI. Tüm hastalara cerrahi öncesi iğne biyopsisi ile tanı konulmalıdır.\nII Böbreğin kistik lezyonlarının değerlendirilmesinde Bosniak klasifikasyonu kullanılır.\nIII. Wilms tümörü malign karakterli bir tümördür.",
+    "options": {
+      "A": "II ve III",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "Yalnız II",
+      "E": "I, II ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q90",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 90,
+    "question": "Aşağıdakilerden hangisi/hangileri hematüri ile ilgili doğru bir tanımlamadır?\nI. Hematüri ile gelen her hastada travma öncelikle sorgulanmalıdır.\nII. Hematüriye sıklıkla hemotokezya eşlik eder.\nIII. Aksi kanıtlanmadıkça hematüriler üriner sistem kaynaklı bir tümörün belirtisi olarak kabul edilmelidir",
+    "options": {
+      "A": "I ve III",
+      "B": "I, II ve III",
+      "C": "Yalnız I",
+      "D": "Yalnız II",
+      "E": "Yalnız III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q91",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 91,
+    "question": "Aşağıdakilerden hangisi ürolojik acillerden biri değildir?",
+    "options": {
+      "A": "vezikoüreteral reflü",
+      "B": "Fournier Gangreni",
+      "C": "priapizm",
+      "D": "parafimozis",
+      "E": "akut üriner retansiyon"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbell's Urology"
+  },
+  {
+    "id": "medu3_q92",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 92,
+    "question": "Testis tümörleri ile ilgili aşağıdaki histolojik tiplerden hangisi/hangileri germ hücreli testis tümörü sınıfına girer?\nI. Disgerminom\nII. Koryokarsinom\nIII. Leydig hücreli tümör\nIV. Sertoli hücreli tümör",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "II, III ve IV",
+      "D": "I, II, III ve IV",
+      "E": "I, III ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q93",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 93,
+    "question": "Aşağıdaki önermelerden hangisi/hangileri prostat kanserleri için doğrudur?\nI. Prostatta en sık malign histolojik tip adenokanserdir.\nII. Nöroendokrin prostat kanserlerinde serum PSA değeri yükselmeyebilir.\nIII. Günümüzde prostat kanserlerinin çoğu radyoterapi ile tedavi edilmektedir.\nIV. Aktif izlemin prostat kanserinin tedavisinde yeri yoktur.",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız I",
+      "C": "Yalnız II",
+      "D": "I, II ve III",
+      "E": "I, II ve IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q94",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 94,
+    "question": "Aşağıdakilerden hangisi/hangileri mesane tümörleri ile ilgili olarak doğru bir tanımlamadır?\nI. Schistosoma haematobium enfeksiyonu mesane tümörü gelişimi için bir risk faktörüdür.\nII. En sık görülen histopatolojik tipi ürotelyal karsinoma ve varyantlarıdır.\nIII. En önemli tanısal değerlendirme yöntemi sistoskopidir.\nIV. Tüm hastalarda üst üriner sistem değerlendirilmelidir.",
+    "options": {
+      "A": "I, II, III ve IV",
+      "B": "II, III ve IV",
+      "C": "II ve III",
+      "D": "I, III ve IV",
+      "E": "I, II ve III"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q95",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 95,
+    "question": "Mesane tümörleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "E.coli enfeksiyonu predispozan faktörlerden biridir.",
+      "B": "Hastaların yaklaşık yarısında tütün kullanımı mevcuttur.",
+      "C": "En sık olarak üreter orifisleri ve trigon çevresinde izlenir.",
+      "D": "T2 mesane tümörlerinin tedavisinde Radikal sistektomi en uygun seçenektir.",
+      "E": "İntravezikal BCG kasa invaze olmayan ürotelyal mesane tümörlerinin tedavisinde kullanılmaktadır."
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": ".",
+    "source": "Campbells Urology"
+  },
+  {
+    "id": "medu3_q96",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 96,
+    "question": "Aşağıdakilerden hangisi intravenoz pyelografi’ de (IVP) ayırt edilebilen anatomik yapılardandır?",
+    "options": {
+      "A": "Renal pelvikaliksiyel yapılar",
+      "B": "Prostat bezi",
+      "C": "Sürrenal bezler",
+      "D": "Koledok",
+      "E": "Pyosalpinks"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "explanation": "prostat, sürrenal bezler ve koledok gibi yapılar bu yöntemle görüntülenemez.",
+    "source": "MEHTA, Sameera R.; ANNAMARAJU, Pavan. Intravenous pyelogram. 2020."
+  },
+  {
+    "id": "medu3_q97",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 97,
+    "question": "Aşağıdakilerden hangisi radyolojik görüntülemede “Endometriozis” için doğrudur?",
+    "options": {
+      "A": "Endometriyal dokunun uterus dışında yerleşimidir",
+      "B": "Kitlesel formu hidrometrokolpozisdir",
+      "C": "En nadir görülen malign jinekolojik hastalıktır",
+      "D": "Endometriyal dokunun fokal veya diffüz olarak miyometriyum içerisine yerleşimidir",
+      "E": "En sık yerleşim yeri servikstir (%80)"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "explanation": "Endometriozis, endometriyal dokunun uterus dışında yerleşimidir. En sık benign jinekolojik hastalıklardandır. Kitlesel formu endometrioma olarak isimlendirilir. En sık yerleşim yeri overlerdir.",
+    "source": "VANNUCCINI, Silvia; ASLAN, Batuhan; PETRAGLIA, Felice. 2024. p. 105-118."
+  },
+  {
+    "id": "medu3_q98",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 98,
+    "question": "Aşağıdakilerden hangisinin varlığı pankreas başı adenokarsinomu için opere edilememe kriteri değildir.",
+    "options": {
+      "A": "Duedonum invazyonu",
+      "B": "Çöliak trunkus invazyonu",
+      "C": "Portal ven invazyonu",
+      "D": "Uzak metastaz",
+      "E": "Peritoneal metastaz"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  },
+  {
+    "id": "medu3_q99",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Yanlış",
+    "question_number": 99,
+    "question": "Memede ağrı şikâyetiyle ultrasonografik inceleme yapılan 33 yaşındaki bayanda sağ meme alt iç kadranda 8x19 mm boyutunda cilde paralel, ovoid, hipoekoik, düzgün konturlu, solid kitle görüldüğünde BI-RADS kategorisi ve buna uygun öneri nasıl olmalıdır?",
+    "options": {
+      "A": "BI-RADS 3 (muhtemel benign), 6 ay sonra USG kontrolü önerilir",
+      "B": "BI-RADS 0 (ileri tetkik gerekli), Meme MRG ile değerlendirilmesi önerilir",
+      "C": "BI-RADS 2 (benign), 1 yıl sonra kontrol USG önerilir",
+      "D": "BI-RADS 4 (şüpheli), histopatolojik tanı önerilir",
+      "E": "BI-RADS 2 (benign), rutin taramaların devamı önerilir"
+    },
+    "correct_answer": "A",
+    "user_answer": "E",
+    "source": null
+  },
+  {
+    "id": "medu3_q100",
+    "file": "DN4-CERRAHİ BİLİMLER 2. DÖNGÜ (3.GRUP) SINAVI",
+    "status": "Doğru",
+    "question_number": 100,
+    "question": "Dizüri şikayeti olan ve üriner sistem enfeksiyonu tanısı düşünülen bir hasta hakkında doğru ifadelerin bulunduğu seçenek hangisidir?\nI) Hamile olan kadınlarda gelişen üriner sistem enfeksiyonları komplike üriner sistem enfeksiyonu olarak kabul edilir.\nII) Florokinon grubu antibiyotikler üriner sistem enfeksiyonu tedavisinde profilaksi amacıyla kullanılır.\nIII) Üriner sistem enfeksiyonlarında en sık görülen yayılım şekli asendan yayılımdır.\nIV) Hastanın idrar kültüründe vankomisin dirençli enterekok üremesi panik bir değer değildir.\nV) Üriner sistem enfeksiyonu tanısında altın standart idrar kültürüdür.",
+    "options": {
+      "A": "I - III – V",
+      "B": "I – III",
+      "C": "II - V",
+      "D": "I –V",
+      "E": "II – III - IV"
+    },
+    "correct_answer": "A",
+    "user_answer": "A",
+    "source": null
+  }
+]
